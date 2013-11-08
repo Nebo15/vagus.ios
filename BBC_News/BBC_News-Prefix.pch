@@ -1,0 +1,33 @@
+//
+// Prefix header for all source files of the 'BBC_News' target in the 'BBC_News' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import "UIAlertView+Interaction.h"
+    #import "NSString+Interaction.h"
+    #import "AppDelegate.h"
+    #import "Helpers.h"
+    #import "UIView+Helpers.h"
+
+#endif
+
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+
+#define CONTEXT [PrivateSpyAppDelegate sharedContext]
+#define DOCUMENTS [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]
+#define INFO [[NSBundle mainBundle] infoDictionary]
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1.0f]
+
+#define BACK_BUTTON [[UIBarButtonItem alloc] initWithTitle: NSLocalizedString(@"Back", @"") style: UIBarButtonItemStyleBordered target: nil action: nil]
+#define DEFAULT_COLOR RGBCOLOR(182,26,41)
+
+//#define IS_IPHONE_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
