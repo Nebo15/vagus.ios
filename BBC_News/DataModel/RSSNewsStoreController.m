@@ -25,7 +25,8 @@
 	self.itemsToDisplay = [NSArray array];
 	
 	// Parse
-	NSURL *feedURL = [NSURL URLWithString:urlStr];
+    NSString* url = [NSString stringWithString:urlStr];
+	NSURL *feedURL = [[NSURL alloc] initWithString:[url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
 //    NSString *str = [NSString stringWithContentsOfURL:feedURL encoding:NSUTF8StringEncoding error:nil];
 //    NSLog(@"%@",str);
 	feedParser = [[MWFeedParser alloc] initWithFeedURL:feedURL];

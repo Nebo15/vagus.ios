@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5DDF3180-2489-4C7F-835A-5128A1639B13</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BBC_News</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6E117AFD-9C2E-460B-A274-3B4887E026EC</key>
+		<string>https://github.com/Nebo15/vagus_news.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BBC_News.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6E117AFD-9C2E-460B-A274-3B4887E026EC</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Nebo15/vagus_news.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6E117AFD-9C2E-460B-A274-3B4887E026EC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6E117AFD-9C2E-460B-A274-3B4887E026EC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>vagus_news</string>
+		</dict>
+	</array>
+</dict>
+</plist>

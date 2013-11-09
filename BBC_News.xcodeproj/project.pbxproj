@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FE14DC9EDC4455C9F04254F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C01E3F0B0F4C6C82975180 /* libPods.a */; };
 		31B17654182BE274006B48DF /* vagus_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31B17653182BE274006B48DF /* vagus_logo@2x.png */; };
 		5227C4F517E9D9AB0070F999 /* shareButtonsView.png in Resources */ = {isa = PBXBuildFile; fileRef = 5227C4F417E9D9AB0070F999 /* shareButtonsView.png */; };
 		5227C4F917E9DA400070F999 /* SharePopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227C4F717E9DA400070F999 /* SharePopoverView.m */; };
@@ -172,6 +173,7 @@
 		67B1647C17F3501900D34AE8 /* world_service@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67B1647017F3501800D34AE8 /* world_service@2x.jpg */; };
 		67B1647F17F358A600D34AE8 /* newshour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67B1647D17F3589F00D34AE8 /* newshour.jpg */; };
 		67B1648017F358A600D34AE8 /* newshour@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67B1647E17F358A200D34AE8 /* newshour@2x.jpg */; };
+		81AE5CCE182DBA690023B03E /* NetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE5CCD182DBA690023B03E /* NetworkClient.m */; };
 		8659D51317EDC2330029135D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D51217EDC2330029135D /* Default@2x.png */; };
 		8659D51517EDC24C0029135D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D51417EDC24C0029135D /* Default.png */; };
 		8659D51817EDC2620029135D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D51717EDC2620029135D /* Default-568h@2x.png */; };
@@ -255,6 +257,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C91ED53946845CFB1CAD013 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		31B17653182BE274006B48DF /* vagus_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vagus_logo@2x.png"; sourceTree = "<group>"; };
 		5227C4F417E9D9AB0070F999 /* shareButtonsView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareButtonsView.png; sourceTree = "<group>"; };
 		5227C4F617E9DA400070F999 /* SharePopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SharePopoverView.h; path = News/SharePopoverView/SharePopoverView.h; sourceTree = "<group>"; };
@@ -486,6 +489,9 @@
 		67B1647017F3501800D34AE8 /* world_service@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "world_service@2x.jpg"; sourceTree = "<group>"; };
 		67B1647D17F3589F00D34AE8 /* newshour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newshour.jpg; sourceTree = "<group>"; };
 		67B1647E17F358A200D34AE8 /* newshour@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "newshour@2x.jpg"; sourceTree = "<group>"; };
+		72C01E3F0B0F4C6C82975180 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AE5CCC182DBA690023B03E /* NetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
+		81AE5CCD182DBA690023B03E /* NetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClient.m; sourceTree = "<group>"; };
 		8659D51217EDC2330029135D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../Default@2x.png"; sourceTree = "<group>"; };
 		8659D51417EDC24C0029135D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Default.png; sourceTree = "<group>"; };
 		8659D51717EDC2620029135D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -588,6 +594,7 @@
 				67AD543717E5ED9C00D8BF6D /* UIKit.framework in Frameworks */,
 				67AD543917E5ED9C00D8BF6D /* Foundation.framework in Frameworks */,
 				67AD543B17E5ED9C00D8BF6D /* CoreGraphics.framework in Frameworks */,
+				1FE14DC9EDC4455C9F04254F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1009,6 +1016,7 @@
 				67AD543C17E5ED9C00D8BF6D /* BBC_News */,
 				67AD543517E5ED9C00D8BF6D /* Frameworks */,
 				67AD543417E5ED9C00D8BF6D /* Products */,
+				2C91ED53946845CFB1CAD013 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1037,6 +1045,7 @@
 				67AD543617E5ED9C00D8BF6D /* UIKit.framework */,
 				67AD543817E5ED9C00D8BF6D /* Foundation.framework */,
 				67AD543A17E5ED9C00D8BF6D /* CoreGraphics.framework */,
+				72C01E3F0B0F4C6C82975180 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1044,6 +1053,7 @@
 		67AD543C17E5ED9C00D8BF6D /* BBC_News */ = {
 			isa = PBXGroup;
 			children = (
+				81AE5CCB182DBA3D0023B03E /* Utils */,
 				67AD544517E5ED9C00D8BF6D /* AppDelegate.h */,
 				67AD544617E5ED9C00D8BF6D /* AppDelegate.m */,
 				6727E9C017E7836900FECCB2 /* ViewControllers */,
@@ -1259,6 +1269,15 @@
 			name = ItemVeiw;
 			sourceTree = "<group>";
 		};
+		81AE5CCB182DBA3D0023B03E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				81AE5CCC182DBA690023B03E /* NetworkClient.h */,
+				81AE5CCD182DBA690023B03E /* NetworkClient.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		8659D56D17EE3C3B0029135D /* Landscape */ = {
 			isa = PBXGroup;
 			children = (
@@ -1307,9 +1326,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67AD545917E5ED9C00D8BF6D /* Build configuration list for PBXNativeTarget "BBC_News" */;
 			buildPhases = (
+				1A51356C3CA34C24ADA4A3AC /* Check Pods Manifest.lock */,
 				67AD542F17E5ED9C00D8BF6D /* Sources */,
 				67AD543017E5ED9C00D8BF6D /* Frameworks */,
 				67AD543117E5ED9C00D8BF6D /* Resources */,
+				17D1B0615965407A97031D13 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1525,6 +1546,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17D1B0615965407A97031D13 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A51356C3CA34C24ADA4A3AC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		67AD542F17E5ED9C00D8BF6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -1569,6 +1623,7 @@
 				6727E9BB17E7714600FECCB2 /* MWFeedParser.m in Sources */,
 				6727E9C517E7841A00FECCB2 /* SimpleWebViewController.m in Sources */,
 				67A1D7DC17E84C8200D10B71 /* PageViewController.m in Sources */,
+				81AE5CCE182DBA690023B03E /* NetworkClient.m in Sources */,
 				67A1D7E117E84C9900D10B71 /* DPPageControl.m in Sources */,
 				52832F5E17E8A7A6004A37E1 /* DragViewController.m in Sources */,
 				67A1D7E717E8A2ED00D10B71 /* FooterView.m in Sources */,
@@ -1669,6 +1724,7 @@
 		};
 		67AD545A17E5ED9C00D8BF6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C91ED53946845CFB1CAD013 /* Pods.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Vitalii Todorovych";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vitalii Todorovych (6EM64P252H)";
@@ -1680,7 +1736,7 @@
 				GCC_PREFIX_HEADER = "BBC_News/BBC_News-Prefix.pch";
 				INFOPLIST_FILE = "BBC_News/BBC_News-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6917F067-7597-40EB-B39C-90E3A77AFAB6";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "332A5BC2-D1BC-47F1-981D-9D107500F7BD";
@@ -1691,6 +1747,7 @@
 		};
 		67AD545B17E5ED9C00D8BF6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C91ED53946845CFB1CAD013 /* Pods.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Vitalii Todorovych";
@@ -1702,7 +1759,7 @@
 				GCC_PREFIX_HEADER = "BBC_News/BBC_News-Prefix.pch";
 				INFOPLIST_FILE = "BBC_News/BBC_News-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AF0C36E3-DC19-4248-A6B7-C74CC8202CA2";

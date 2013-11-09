@@ -56,7 +56,7 @@
     for (int i = 0; i < [itemsAr count]; i++) {
         @try {
             CategoryItem *categoryItem = [[CategoryItem alloc]initWithTitle:itemsAr[i]
-                                                                   feed_url:[NSString stringWithFormat:@"http://vagus.tv/feed/atom/?tag=%@",itemsAr[i]]];
+                                                                   feed_url:[NSString stringWithFormat:@"http://vagus.tv/feed/atom/?tag=%@",@"cemaat"]];
 //            if ([dict objectForKey:@"defaultStr"]) {
 //                categoryItem.defaultStr = [dict objectForKey:@"defaultStr"];
 //            }
@@ -72,13 +72,13 @@
 }
 
 - (void)modelDidFinishLoad:(id)data {
-    if (data[@"feeds"]) {
-        self.data = [NSArray arrayWithArray:data[@"feeds"]];
+    //if (data[@"feeds"]) {
+      //  self.data = [NSArray arrayWithArray:data[@"feeds"]];
         items = [NSMutableArray new];
         NSArray* tagsArray = @[@"Manşet",@"Ankara Havası",@"Derin Siyaset",@"Ortadoğu",@"Kürt Dosyası",@"Video",@"Avam Kamerası",@"Hayatın İçinden",@"Kültur-Sanat",@"Bilim-Teknoloji",@"Sağlık",@"Spor"];
         [self pullItems:tagsArray toMutableArray:items];
         [self sortItems];
-    }
+  //  }
     loadingItemsIndex = 0;
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
     

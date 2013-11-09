@@ -31,6 +31,7 @@
 #import "MWFeedParser_Private.h"
 #import "NSString+HTML.h"
 #import "NSDate+InternetDateTime.h"
+#import "NetworkClient.h"
 
 // NSXMLParser Logging
 #if 0 // Set to 1 to enable XML parsing logs
@@ -139,9 +140,12 @@
 	[self reset];
 	
 	// Perform checks before parsing
-	if (!url || !delegate) { [self parsingFailedWithErrorCode:MWErrorCodeNotInitiated
+	if (!url || !delegate)
+    {
+        [self parsingFailedWithErrorCode:MWErrorCodeNotInitiated
 											   andDescription:@"Delegate or URL not specified"]; return NO; }
-	if (parsing) { [self parsingFailedWithErrorCode:MWErrorCodeGeneral
+	if (parsing) {
+        [self parsingFailedWithErrorCode:MWErrorCodeGeneral
 									 andDescription:@"Cannot start parsing as parsing is already in progress"]; return NO; }
 	
 	// Reset state for next parse
@@ -158,7 +162,7 @@
 	NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url
                                                                 cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData
                                                             timeoutInterval:5];
-	[request setValue:@"MWFeedParser" forHTTPHeaderField:@"User-Agent"];
+	[request setValue:@"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:25.0) Gecko/20100101 Firefox/25.0" forHTTPHeaderField:@"User-Agent"];
 	
 	// Debug Log
 	MWLog(@"MWFeedParser: Connecting & downloading feed data");
@@ -175,6 +179,9 @@
 							  andDescription:[NSString stringWithFormat:@"Asynchronous connection failed to URL: %@", url]];
 			success = NO;
 		}
+        [[NetworkClient sharedClient] getFeedDataWithTag:@"cemaat" completion:^(BOOL success, NSData * data) {
+            
+        }];
 		
 	} else {
         
@@ -274,7 +281,7 @@
 		if (data) {
             NSString* dataString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
             dataString = [dataString stringByReplacingOccurrencesOfString:@"\n" withString:@""];
-            dataString = [dataString stringByReplacingOccurrencesOfString:@"\r" withString:@""];  //FUCKING SHIT. Steve sorry about this 
+            dataString = [dataString stringByReplacingOccurrencesOfString:@"\r" withString:@""];  //FUCKING SHIT. Steve sorry about this
 			NSXMLParser *newFeedParser = [[NSXMLParser alloc] initWithData:[dataString dataUsingEncoding:NSUTF8StringEncoding]];
 			self.feedParser = newFeedParser;
 			[newFeedParser release];
@@ -418,7 +425,8 @@
 	MWLog(@"MWFeedParser: Connection successful... received %d bytes of data", [asyncData length]);
 	
 	// Parse
-	if (!stopped) [self startParsingData:asyncData textEncodingName:self.asyncTextEncodingName];
+	if (!stopped)
+        [self startParsingData:asyncData textEncodingName:self.asyncTextEncodingName];
 	
     // Cleanup
     self.urlConnection = nil;

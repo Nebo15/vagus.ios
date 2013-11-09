@@ -40,20 +40,20 @@
 }
 
 - (void)getNewsList{
-    self.pv_feedParser = [[MWFeedParser alloc] initWithFeedURL:[[NSURL alloc] initWithString:@"http://vagus.tv/feed/atom/"]];
-    self.pv_feedParser.delegate = self;
-    self.pv_feedParser.feedParseType = ParseTypeFull;
-    // Connection type
-    self.pv_feedParser.connectionType = ConnectionTypeSynchronously;
-    // Begin parsing
-    [self.pv_feedParser parse];
-//    [self loadDataWithUrl:[NSString stringWithFormat:@"http://vagus.tv/feed/atom/"]];
-//    __weak OnlineStoreController *weakSelf = self;
-//    callbackBlock = ^(NSDictionary *dic){
-//        SEL selector = @selector(dataDidFinishLoad:);
-//        if ([weakSelf.dataModel respondsToSelector:selector]) {
-//            [weakSelf.dataModel performSelector:selector withObject:dic];
-//        }
+//    self.pv_feedParser = [[MWFeedParser alloc] initWithFeedURL:[[NSURL alloc] initWithString:@"http://vagus.tv/feed/atom/"]];
+//    self.pv_feedParser.delegate = self;
+//    self.pv_feedParser.feedParseType = ParseTypeFull;
+//    // Connection type
+//    self.pv_feedParser.connectionType = ConnectionTypeSynchronously;
+//    // Begin parsing
+//    [self.pv_feedParser parse];
+////    [self loadDataWithUrl:[NSString stringWithFormat:@"http://vagus.tv/feed/atom/"]];
+////    __weak OnlineStoreController *weakSelf = self;
+////    callbackBlock = ^(NSDictionary *dic){
+        SEL selector = @selector(dataDidFinishLoad:);
+        if ([self.dataModel respondsToSelector:selector]) {
+            [self.dataModel performSelector:selector withObject:nil];
+       }
 //    };
 }
 
