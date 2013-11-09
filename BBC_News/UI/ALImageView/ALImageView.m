@@ -14,20 +14,13 @@
 
 - (void)setupView
 {
-    if(!customActivityView)
+    if(!activityView)
     {
-        customActivityView = [[UIImageView alloc] init];
-        
-        customActivityView.animationImages = @[[UIImage imageNamed:@"loadingNew1"],
-                                               [UIImage imageNamed:@"loadingNew2"],
-                                               [UIImage imageNamed:@"loadingNew3"],
-                                               [UIImage imageNamed:@"loadingNew4"]];
-
-        customActivityView.animationDuration = 0.5;
-        CGSize activityViewSize = CGSizeMake(34, 34);
-        customActivityView.frame = CGRectMake(0, 0, activityViewSize.width, activityViewSize.height);
-        customActivityView.center = CGPointMake(self.width / 2, self.height / 2);
-        [self addSubview:customActivityView];
+        activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+        CGSize activityViewSize = CGSizeMake(20, 20);
+        activityView.frame = CGRectMake(0, 0, activityViewSize.width, activityViewSize.height);
+        activityView.center = CGPointMake(self.width / 2, self.height / 2);
+        [self addSubview:activityView];
     }
 }
 
@@ -91,14 +84,14 @@
 
 -(void)showActivityView {
     if (!self.image) {
-        customActivityView.hidden = NO;
-        [customActivityView startAnimating];
+        activityView.hidden = NO;
+        [activityView startAnimating];
     }
 }
 
 -(void)hideActivityView {
-    customActivityView.hidden = YES;
-    [customActivityView stopAnimating];
+    activityView.hidden = YES;
+    [activityView stopAnimating];
 }
 
 #pragma mark Connection

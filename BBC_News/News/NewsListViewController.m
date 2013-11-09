@@ -53,10 +53,11 @@
 }
 
 - (void)pullItems:(NSArray*)itemsAr toMutableArray:(NSMutableArray*)mAr{
+    NSArray* tagsArray = @[@"?kategori=manset+yanmanset+manset",@"?tag=Ankara",@"?tag=direnis+eylem+protest",@"?tag=Ortadoğu",@"?tag=bdp+kck+pkk",@"?tag=Video",@"?tag=Avam",@"?tag=hayatın-içinden",@"?tag=Kültur-Sanat",@"?tag=Bilim-Teknoloji",@"?tag=Sağlık",@"?tag=Spor"];
     for (int i = 0; i < [itemsAr count]; i++) {
         @try {
             CategoryItem *categoryItem = [[CategoryItem alloc]initWithTitle:itemsAr[i]
-                                                                   feed_url:[NSString stringWithFormat:@"http://vagus.tv/feed/atom/?tag=%@",@"cemaat"]];
+                                                                   feed_url:[NSString stringWithFormat:@"http://vagus.tv/feed/atom/%@",tagsArray[i]]];
 //            if ([dict objectForKey:@"defaultStr"]) {
 //                categoryItem.defaultStr = [dict objectForKey:@"defaultStr"];
 //            }

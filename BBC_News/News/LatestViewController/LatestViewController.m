@@ -10,6 +10,7 @@
 #import "NSNumber+Interaction.h"
 #import "TTTAttributedLabel.h"
 #import "NewsListViewController.h"
+#import "MWFeedItem.h"
 
 @interface LatestViewController ()
 
@@ -20,7 +21,7 @@
 
 - (void)loadData{
     if (self.dataModel) {
-      //  [self.dataModel.dataStore getLatestNewsList];
+        [self.dataModel.dataStore getLatestNewsList];
     }
 }
 
@@ -48,14 +49,11 @@
     NSString *headline;
     NSString *prompt;
     
-    for (int i = curIndex; curIndex < [items count]; i++) {
-        NSDictionary *itemDict = items[i];
-        headline = [itemDict objectForKey:@"headline"];
-        prompt = [itemDict objectForKey:@"prompt"];
-        currentIdentifier = [itemDict objectForKey:@"id"];
-        if (![self.delegateTable hasNewsDetailWithIdentifier:currentIdentifier]) {
-            continue;
-        }
+    for(int i = curIndex; i < [items count] - 1; i++)
+    {
+        headline = [items[i] title];
+        prompt = [@"Latest" uppercaseString];
+        currentIdentifier = [items[i] identifier];
         if ([headline length] > 0) {
             headline = [NSString stringWithFormat:@"%@: %@",prompt,headline];
             NSRange colorRange = [headline rangeOfString:[NSString stringWithFormat:@"%@:",prompt]];
@@ -75,7 +73,7 @@
             }];
             [self.delegateTable showLatestView];
             [self.arrowIcon setHidden:NO];
-            [self performSelector:@selector(showNews) withObject:nil afterDelay:10];
+            [self performSelector:@selector(showNews) withObject:nil afterDelay:5];
             curIndex++;
             return;
         }

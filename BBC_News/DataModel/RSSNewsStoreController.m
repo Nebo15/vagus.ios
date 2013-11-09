@@ -85,38 +85,24 @@
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
         NSRegularExpression *regexp =
-        [NSRegularExpression regularExpressionWithPattern:@"<a href=\"http://[^/]*/(.*)"
+        [NSRegularExpression regularExpressionWithPattern:@"http://(?:[a-z]+.)+[a-z]{2,6}(?:/[^/#?]+)+.(?:jpg|gif|png)"
                                                   options:NSRegularExpressionCaseInsensitive
                                                     error:NULL];
-        NSArray *array = [regexp matchesInString:item.summary options:0 range:NSMakeRange(0, item.summary.length)];
+        NSArray *array = [regexp matchesInString:item.content options:0 range:NSMakeRange(0, item.content.length)];
         NSRange matchRange;
-        for (NSTextCheckingResult *res in array)
-        {
-            matchRange = [res rangeAtIndex:1];
+        if ([array count] > 0) {
+            matchRange = [array[0] rangeAtIndex:0];
+            item.thumbnail = [item.content substringWithRange:matchRange];
         }
-    
-    
-//        NSRegularExpression *dirtyREXP =
-//        [NSRegularExpression regularExpressionWithPattern:@"(%7bdevice%7d)" options:NSRegularExpressionCaseInsensitive error:NULL];
-//        NSRange dirtyRange = [dirtyREXP rangeOfFirstMatchInString:dirtyURL
-//                                                          options:0
-//                                                            range:NSMakeRange(0, dirtyURL.length)];
-//        NSString *imageURL;
-//        if (dirtyRange.location < dirtyURL.length)
-//        {
-//            imageURL = [dirtyURL stringByReplacingCharactersInRange:dirtyRange withString:@"iphone-retina"];
-//            imageURL = [NSString stringWithFormat:@"http://%@", imageURL];
-//        }
-        if([item.summary rangeOfString:@".jpg"].location != NSNotFound)
+        else
         {
-            NSString *dirtyURL = [item.summary substringWithRange:matchRange];
-
-            dirtyURL = [dirtyURL substringToIndex:[dirtyURL rangeOfString:@".jpg"].location + 4];
-            NSString *imageURL = [NSString stringWithFormat:@"http://vagus.tv/%@",dirtyURL];
-            item.thumbnail = imageURL;
+            array = [regexp matchesInString:item.summary options:0 range:NSMakeRange(0, item.summary.length)];
+            if ([array count] > 0) {
+                matchRange = [array[0] rangeAtIndex:0];
+                item.thumbnail = [item.summary substringWithRange:matchRange];
+            }
         }
     });
-
     
 	if (item) [parsedItems addObject:item];
 }

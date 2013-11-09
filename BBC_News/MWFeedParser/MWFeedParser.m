@@ -280,8 +280,15 @@
 		// Create NSXMLParser
 		if (data) {
             NSString* dataString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-            dataString = [dataString stringByReplacingOccurrencesOfString:@"\n" withString:@""];
-            dataString = [dataString stringByReplacingOccurrencesOfString:@"\r" withString:@""];  //FUCKING SHIT. Steve sorry about this
+            dataString = [dataString substringFromIndex:[dataString rangeOfString:@"<"].location];
+            dataString = [dataString stringByReplacingOccurrencesOfString:@"&#8216;" withString:@"'"];
+            dataString = [dataString stringByReplacingOccurrencesOfString:@"&#8217;" withString:@"'"];
+            dataString = [dataString stringByReplacingOccurrencesOfString:@"&#8242;" withString:@"'"];
+            dataString = [dataString stringByReplacingOccurrencesOfString:@"&#8220;" withString:@"\""];
+            dataString = [dataString stringByReplacingOccurrencesOfString:@"&#8221;" withString:@"\""];
+            dataString = [dataString stringByReplacingOccurrencesOfString:@"&#8243;" withString:@"\""];
+            dataString = [dataString stringByReplacingOccurrencesOfString:@"&#8230;" withString:@"..."];
+            //FUCKING SHIT. Steve sorry about this
 			NSXMLParser *newFeedParser = [[NSXMLParser alloc] initWithData:[dataString dataUsingEncoding:NSUTF8StringEncoding]];
 			self.feedParser = newFeedParser;
 			[newFeedParser release];
