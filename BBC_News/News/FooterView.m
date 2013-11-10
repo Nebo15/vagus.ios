@@ -31,7 +31,7 @@
     
     switch (sender.tag) {
         case 0:
-            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.bbc.co.uk/news/help-21770563"]];
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://vagus.tv/iletisim/"]];
             break;
         case 1:
             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.bbc.co.uk/terms/"]];

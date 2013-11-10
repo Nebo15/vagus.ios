@@ -438,13 +438,13 @@
     
     MFMailComposeViewController* controller = [[MFMailComposeViewController alloc] init];
     controller.mailComposeDelegate = self;
-    NSString *theme = [NSString stringWithFormat:@"I saw this story on the BBC News %@ App and thought you should see it:\
+    NSString *theme = [NSString stringWithFormat:@"I saw this story on the Vagus News %@ App and thought you should see it:\
                        \n\n%@\
                        \n\n%@\
                        \n\n%@\
                        \n\n\n** Disclaimer **\
-                       The BBC is not responsible for the content of this e-mail, and anything written in this e-mail does not necessarily reflect the BBC's views or opinions. Please note that neither the e-mail address nor name of the sender have been verified.",(IS_IPAD)?@"iPad":@"iPhone",feedItem.link,feedItem.title,feedItem.summary];
-    [controller setSubject:[NSString stringWithFormat:@"BBC News: %@",feedItem.title]];
+                       Vagus is not responsible for the content of this e-mail, and anything written in this e-mail does not necessarily reflect the Vagus views or opinions. Please note that neither the e-mail address nor name of the sender have been verified.",(IS_IPAD)?@"iPad":@"iPhone",feedItem.link,feedItem.title,feedItem.summary];
+    [controller setSubject:[NSString stringWithFormat:@"Vagus News: %@",feedItem.title]];
     [controller setMessageBody:theme isHTML:NO];
     if (controller) [self presentViewController:controller animated:YES
                                      completion:^{

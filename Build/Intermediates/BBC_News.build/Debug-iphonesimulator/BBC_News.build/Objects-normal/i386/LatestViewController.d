@@ -10,4 +10,5 @@ dependencies: \
   /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/UI/TTTAttributedLabel/TTTAttributedLabel.h \
   /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/News/NewsListViewController.h \
   /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/TableViews/TableViewController.h \
-  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/News/SharePopoverView/SharePopoverView.h
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/News/SharePopoverView/SharePopoverView.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data/../MWFeedParser/MWFeedItem.h

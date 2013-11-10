@@ -150,7 +150,7 @@ documentsDirectory = [paths objectAtIndex:0];
                       (item.title)?item.title:@"",
                       lastUpdateStr,
                       [self prepareHtmlTextForItem:item],
-                      [NSString stringWithFormat:@"BBC © %@",[self getCurrentYear]]];
+                      [NSString stringWithFormat:@"VAGUS © %@",[self getCurrentYear]]];
     [self.webView loadHTMLString:html baseURL:baseURL];
 }
 

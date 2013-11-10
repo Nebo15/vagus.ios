@@ -532,7 +532,7 @@
         }else{
             [radioButton setSelected:NO];
         }
-        [self aplyAnimationForRadiopButton:radioButton];
+      //  [self aplyAnimationForRadiopButton:radioButton];
         
         // Right navigation items
         
@@ -550,11 +550,11 @@
             if (self.dragVC.closed) {
                 leftView = [Helpers createViewWithButtons:@[sectionsButton]];
             }else{
-                leftView = [Helpers createViewWithButtons:@[sectionsButton,editButton,radioButton]];
+                leftView = [Helpers createViewWithButtons:@[sectionsButton,editButton]];
             }
         }else{
             // Left navigation items
-            leftView = [Helpers createViewWithButtons:@[editButton, radioButton]];
+            leftView = [Helpers createViewWithButtons:@[editButton]];
         }
         UIBarButtonItem *leftBtnItem = [[UIBarButtonItem alloc] initWithCustomView:leftView];
         [self.navigationItem setLeftBarButtonItem:leftBtnItem];
@@ -766,9 +766,9 @@
     
     MFMailComposeViewController* controller = [[MFMailComposeViewController alloc] init];
     controller.mailComposeDelegate = self;
-    NSString *theme = [NSString stringWithFormat:@"Send from BBC News %@ app",(IS_IPAD)?@"iPad":@"iPhone"];
+    NSString *theme = [NSString stringWithFormat:@"Send from Vagus News %@ app",(IS_IPAD)?@"iPad":@"iPhone"];
     [controller setSubject:theme];
-    NSArray *toRecipients = [NSArray arrayWithObject:@"gasratov@gmail.com"];
+    NSArray *toRecipients = [NSArray arrayWithObject:@"editor@vagus.tv"];
     [controller setToRecipients:toRecipients];
     [controller setMessageBody:theme isHTML:NO];
     if (controller) [self presentViewController:controller animated:YES
@@ -779,7 +779,7 @@
 
 - (void)showMailFormWithImage:(UIImage*)image{
     NSMutableString *emailBody = [[NSMutableString alloc] initWithString:@"<html><body>"];
-    [emailBody appendString:[NSString stringWithFormat:@"<p>Send from BBC News %@ app</p>",(IS_IPAD)?@"iPad":@"iPhone"]];
+    [emailBody appendString:[NSString stringWithFormat:@"<p>Send from Vagus News %@ app</p>",(IS_IPAD)?@"iPad":@"iPhone"]];
     NSData *imageData = [NSData dataWithData:UIImagePNGRepresentation(image)];
     NSString *base64String = [imageData base64EncodedString];
     [emailBody appendString:[NSString stringWithFormat:@"<p><b><img src='data:image/png;base64,%@'></b></p>",base64String]];
@@ -789,9 +789,9 @@
         [self hideLoading];
     MFMailComposeViewController* controller = [[MFMailComposeViewController alloc] init];
     controller.mailComposeDelegate = self;
-    NSString *theme = [NSString stringWithFormat:@"Send from BBC News %@ app",(IS_IPAD)?@"iPad":@"iPhone"];
+    NSString *theme = [NSString stringWithFormat:@"Send from Vagus News %@ app",(IS_IPAD)?@"iPad":@"iPhone"];
     [controller setSubject:theme];
-        NSArray *toRecipients = [NSArray arrayWithObject:@"gasratov@gmail.com"];
+        NSArray *toRecipients = [NSArray arrayWithObject:@"editor@vagus.tv"];
         [controller setToRecipients:toRecipients];
     [controller setMessageBody:emailBody isHTML:YES];
     

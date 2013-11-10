@@ -19,6 +19,7 @@
     [super viewDidLoad];
     
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"vagus_logo"]];
+    self.navigationItem.titleView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationController.navigationBar.translucent = NO;
 }
 

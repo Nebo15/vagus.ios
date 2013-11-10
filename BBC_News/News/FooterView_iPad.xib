@@ -59,7 +59,7 @@
                         <action selector="openDaleDietrichDotCom:" destination="1" eventType="touchUpInside" id="14"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8">
+                <button opaque="NO" alpha="0.69999999999999996" tag="1" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8">
                     <rect key="frame" x="172" y="58" width="164" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.76862745099999996" green="0.7725490196" blue="0.7725490196" alpha="1" colorSpace="deviceRGB"/>
@@ -75,7 +75,7 @@
                         <action selector="openDaleDietrichDotCom:" destination="1" eventType="touchUpInside" id="13"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9">
+                <button opaque="NO" alpha="0.69999999999999996" tag="2" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9">
                     <rect key="frame" x="341" y="58" width="164" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.76862745099999996" green="0.7725490196" blue="0.7725490196" alpha="1" colorSpace="deviceRGB"/>

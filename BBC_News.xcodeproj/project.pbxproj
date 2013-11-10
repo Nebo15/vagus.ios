@@ -148,7 +148,6 @@
 		67AD54A217E5EEB100D8BF6D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AD54A117E5EEB100D8BF6D /* QuartzCore.framework */; };
 		67AD54A817E5F00600D8BF6D /* BaseDataModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AD54A517E5F00600D8BF6D /* BaseDataModelViewController.m */; };
 		67AD54A917E5F00600D8BF6D /* BaseUploadDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AD54A717E5F00600D8BF6D /* BaseUploadDataViewController.m */; };
-		67AD54B017E5F0FB00D8BF6D /* NewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AD54AF17E5F0FB00D8BF6D /* NewsListViewController.m */; };
 		67AD54B217E5F48100D8BF6D /* TableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67AD54B117E5F48100D8BF6D /* TableView.xib */; };
 		67AD54B617E61BDA00D8BF6D /* NewsFeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AD54B517E61BDA00D8BF6D /* NewsFeedView.m */; };
 		67AD54B817E61BFD00D8BF6D /* NewsFeedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67AD54B717E61BFD00D8BF6D /* NewsFeedView.xib */; };
@@ -174,6 +173,21 @@
 		67B1647F17F358A600D34AE8 /* newshour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67B1647D17F3589F00D34AE8 /* newshour.jpg */; };
 		67B1648017F358A600D34AE8 /* newshour@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67B1647E17F358A200D34AE8 /* newshour@2x.jpg */; };
 		81AE5CCE182DBA690023B03E /* NetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE5CCD182DBA690023B03E /* NetworkClient.m */; };
+		81AE5CDB182F0CCA0023B03E /* vagus_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CCF182F0CCA0023B03E /* vagus_29.png */; };
+		81AE5CDC182F0CCA0023B03E /* vagus_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CD0182F0CCA0023B03E /* vagus_57.png */; };
+		81AE5CDD182F0CCA0023B03E /* vagus_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CD1182F0CCA0023B03E /* vagus_58.png */; };
+		81AE5CDE182F0CCA0023B03E /* vagus_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CD2182F0CCA0023B03E /* vagus_72.png */; };
+		81AE5CDF182F0CCA0023B03E /* vagus_76.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CD3182F0CCA0023B03E /* vagus_76.png */; };
+		81AE5CE0182F0CCA0023B03E /* vagus_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CD4182F0CCA0023B03E /* vagus_80.png */; };
+		81AE5CE1182F0CCA0023B03E /* vagus_100.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CD5182F0CCA0023B03E /* vagus_100.png */; };
+		81AE5CE2182F0CCA0023B03E /* vagus_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CD6182F0CCA0023B03E /* vagus_114.png */; };
+		81AE5CE3182F0CCA0023B03E /* vagus_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CD7182F0CCA0023B03E /* vagus_120.png */; };
+		81AE5CE4182F0CCA0023B03E /* vagus_144.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CD8182F0CCA0023B03E /* vagus_144.png */; };
+		81AE5CE5182F0CCA0023B03E /* vagus_152.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CD9182F0CCA0023B03E /* vagus_152.png */; };
+		81AE5CE6182F0CCA0023B03E /* vagus_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CDA182F0CCA0023B03E /* vagus_1024.png */; };
+		81AE5CE9182F0DC60023B03E /* vagus_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CE7182F0DC60023B03E /* vagus_40.png */; };
+		81AE5CEA182F0DC60023B03E /* vagus_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CE8182F0DC60023B03E /* vagus_50.png */; };
+		81DE8359182F0E81004C79CB /* NewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AD54AF17E5F0FB00D8BF6D /* NewsListViewController.m */; };
 		8659D51317EDC2330029135D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D51217EDC2330029135D /* Default@2x.png */; };
 		8659D51517EDC24C0029135D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D51417EDC24C0029135D /* Default.png */; };
 		8659D51817EDC2620029135D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D51717EDC2620029135D /* Default-568h@2x.png */; };
@@ -492,6 +506,20 @@
 		72C01E3F0B0F4C6C82975180 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AE5CCC182DBA690023B03E /* NetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
 		81AE5CCD182DBA690023B03E /* NetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClient.m; sourceTree = "<group>"; };
+		81AE5CCF182F0CCA0023B03E /* vagus_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_29.png; sourceTree = "<group>"; };
+		81AE5CD0182F0CCA0023B03E /* vagus_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_57.png; sourceTree = "<group>"; };
+		81AE5CD1182F0CCA0023B03E /* vagus_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_58.png; sourceTree = "<group>"; };
+		81AE5CD2182F0CCA0023B03E /* vagus_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_72.png; sourceTree = "<group>"; };
+		81AE5CD3182F0CCA0023B03E /* vagus_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_76.png; sourceTree = "<group>"; };
+		81AE5CD4182F0CCA0023B03E /* vagus_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_80.png; sourceTree = "<group>"; };
+		81AE5CD5182F0CCA0023B03E /* vagus_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_100.png; sourceTree = "<group>"; };
+		81AE5CD6182F0CCA0023B03E /* vagus_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_114.png; sourceTree = "<group>"; };
+		81AE5CD7182F0CCA0023B03E /* vagus_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_120.png; sourceTree = "<group>"; };
+		81AE5CD8182F0CCA0023B03E /* vagus_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_144.png; sourceTree = "<group>"; };
+		81AE5CD9182F0CCA0023B03E /* vagus_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_152.png; sourceTree = "<group>"; };
+		81AE5CDA182F0CCA0023B03E /* vagus_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_1024.png; sourceTree = "<group>"; };
+		81AE5CE7182F0DC60023B03E /* vagus_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_40.png; sourceTree = "<group>"; };
+		81AE5CE8182F0DC60023B03E /* vagus_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_50.png; sourceTree = "<group>"; };
 		8659D51217EDC2330029135D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../Default@2x.png"; sourceTree = "<group>"; };
 		8659D51417EDC24C0029135D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Default.png; sourceTree = "<group>"; };
 		8659D51717EDC2620029135D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -995,6 +1023,20 @@
 		67A532FE182ACBA200C7CA13 /* AppIcons */ = {
 			isa = PBXGroup;
 			children = (
+				81AE5CE7182F0DC60023B03E /* vagus_40.png */,
+				81AE5CE8182F0DC60023B03E /* vagus_50.png */,
+				81AE5CCF182F0CCA0023B03E /* vagus_29.png */,
+				81AE5CD0182F0CCA0023B03E /* vagus_57.png */,
+				81AE5CD1182F0CCA0023B03E /* vagus_58.png */,
+				81AE5CD2182F0CCA0023B03E /* vagus_72.png */,
+				81AE5CD3182F0CCA0023B03E /* vagus_76.png */,
+				81AE5CD4182F0CCA0023B03E /* vagus_80.png */,
+				81AE5CD5182F0CCA0023B03E /* vagus_100.png */,
+				81AE5CD6182F0CCA0023B03E /* vagus_114.png */,
+				81AE5CD7182F0CCA0023B03E /* vagus_120.png */,
+				81AE5CD8182F0CCA0023B03E /* vagus_144.png */,
+				81AE5CD9182F0CCA0023B03E /* vagus_152.png */,
+				81AE5CDA182F0CCA0023B03E /* vagus_1024.png */,
 				8659D52F17EDC3950029135D /* Icon-iPad@2x.png */,
 				8659D52D17EDC3910029135D /* Icon-iPad.png */,
 				8659D52B17EDC38C0029135D /* Icon@2x.png */,
@@ -1410,13 +1452,16 @@
 				86D180C517E97EF800AEC9CA /* zoomTextBtnNorm@2x.png in Resources */,
 				52832F6517E9990E004A37E1 /* sectionsBtnHighlight.png in Resources */,
 				52832F6617E9990E004A37E1 /* sectionsBtnHighlight@2x.png in Resources */,
+				81AE5CE1182F0CCA0023B03E /* vagus_100.png in Resources */,
 				52832F6917E9999C004A37E1 /* shareBtnHighlight.png in Resources */,
 				52832F6A17E9999C004A37E1 /* shareBtnHighlight@2x.png in Resources */,
 				5227C4F517E9D9AB0070F999 /* shareButtonsView.png in Resources */,
 				5227C4FA17E9DA400070F999 /* SharePopoverView.xib in Resources */,
 				67A350FC17EA4B8200C12216 /* TableHeadView.xib in Resources */,
 				67A350FE17EA4C9E00C12216 /* separateImg.png in Resources */,
+				81AE5CDE182F0CCA0023B03E /* vagus_72.png in Resources */,
 				67A3510017EA57C900C12216 /* separateEditingIm.png in Resources */,
+				81AE5CDD182F0CCA0023B03E /* vagus_58.png in Resources */,
 				674A3D2B17EC388800F2C1F4 /* NewsListViewController.xib in Resources */,
 				674A3D3717EC459800F2C1F4 /* FooterView.xib in Resources */,
 				674A3D3F17EC7BBE00F2C1F4 /* icon-sendphoto.png in Resources */,
@@ -1442,6 +1487,7 @@
 				8659D54D17EDD1060029135D /* EditBtnNewPress.png in Resources */,
 				8659D54E17EDD1060029135D /* EditBtnNewPress@2x.png in Resources */,
 				8659D55617EDD12D0029135D /* TickerArrow.png in Resources */,
+				81AE5CE4182F0CCA0023B03E /* vagus_144.png in Resources */,
 				8659D55717EDD12D0029135D /* TickerArrow@2x.png in Resources */,
 				8659D55817EDD12D0029135D /* TickerArrowWhite.png in Resources */,
 				8659D55917EDD12D0029135D /* TickerArrowWhite@2x.png in Resources */,
@@ -1456,21 +1502,25 @@
 				8659D57F17EE3C4A0029135D /* DoneBtnLandscape@2x.png in Resources */,
 				8659D58017EE3C4A0029135D /* DoneBtnLandscapePress.png in Resources */,
 				8659D58117EE3C4A0029135D /* DoneBtnLandscapePress@2x.png in Resources */,
+				81AE5CE9182F0DC60023B03E /* vagus_40.png in Resources */,
 				8659D58217EE3C4A0029135D /* EditBtnLandscape.png in Resources */,
 				8659D58317EE3C4A0029135D /* EditBtnLandscape@2x.png in Resources */,
 				8659D58417EE3C4A0029135D /* EditBtnLandscapePress.png in Resources */,
 				8659D58517EE3C4A0029135D /* EditBtnLandscapePress@2x.png in Resources */,
 				8659D58617EE3C4A0029135D /* liveRadio0Landscape@2x~iphone.png in Resources */,
+				81AE5CDF182F0CCA0023B03E /* vagus_76.png in Resources */,
 				8659D58717EE3C4A0029135D /* liveRadio0Landscape~iphone.png in Resources */,
 				8659D58817EE3C4A0029135D /* liveRadio1Landscape@2x~iphone.png in Resources */,
 				8659D58917EE3C4A0029135D /* liveRadio1Landscape~iphone.png in Resources */,
 				8659D58A17EE3C4A0029135D /* liveRadio2Landscape@2x~iphone.png in Resources */,
 				8659D58B17EE3C4A0029135D /* liveRadio2Landscape~iphone.png in Resources */,
+				81AE5CEA182F0DC60023B03E /* vagus_50.png in Resources */,
 				8659D58C17EE3C4A0029135D /* liveRadioLandscape@2x~iphone.png in Resources */,
 				8659D58D17EE3C4A0029135D /* liveRadioLandscape~iphone.png in Resources */,
 				8659D59717EE51250029135D /* liveRadio@2x~ipad.png in Resources */,
 				8659D59817EE51250029135D /* liveRadio~ipad.png in Resources */,
 				8659D59917EE51250029135D /* liveRadioRed0@2x~ipad.png in Resources */,
+				81AE5CDB182F0CCA0023B03E /* vagus_29.png in Resources */,
 				8659D59A17EE51250029135D /* liveRadioRed0~ipad.png in Resources */,
 				8659D59B17EE51250029135D /* liveRadioRed1@2x~ipad.png in Resources */,
 				8659D59C17EE51250029135D /* liveRadioRed1~ipad.png in Resources */,
@@ -1483,10 +1533,13 @@
 				6795C24C17EF6BA300F62C3B /* ArticleChinese.css in Resources */,
 				6795C24D17EF6BA300F62C3B /* ArticleCommon.css in Resources */,
 				6795C24E17EF6BA300F62C3B /* ArticleLayout-iPad.css in Resources */,
+				81AE5CDC182F0CCA0023B03E /* vagus_57.png in Resources */,
 				6795C24F17EF6BA300F62C3B /* ArticleLayout-iPhone.css in Resources */,
 				6795C25017EF6BA300F62C3B /* ArticleStyles.css in Resources */,
+				81AE5CE6182F0CCA0023B03E /* vagus_1024.png in Resources */,
 				6795C25117EF6BA300F62C3B /* ArticleTypography.css in Resources */,
 				6795C25217EF6BA300F62C3B /* avTemplate.html in Resources */,
+				81AE5CE2182F0CCA0023B03E /* vagus_114.png in Resources */,
 				6795C25317EF6BA300F62C3B /* live-radio-icon-off.png in Resources */,
 				6795C25417EF6BA300F62C3B /* live-radio-icon-off@2x.png in Resources */,
 				6795C25517EF6BA300F62C3B /* live-radio-icon-on-1.png in Resources */,
@@ -1501,6 +1554,7 @@
 				67A5CC6D17EFCD330043C98A /* iPad.css in Resources */,
 				67A5CC6E17EFCD330043C98A /* iPadLarge.css in Resources */,
 				67A5CC6F17EFCD330043C98A /* iPhone.css in Resources */,
+				81AE5CE0182F0CCA0023B03E /* vagus_80.png in Resources */,
 				67A5CC7017EFCD330043C98A /* iPhoneLarge.css in Resources */,
 				52B68ABC17F0398400062E93 /* loading0.png in Resources */,
 				52B68ABD17F0398400062E93 /* loading0@2x.png in Resources */,
@@ -1520,12 +1574,14 @@
 				869FFAB817F0D70D0097576D /* loadingNew4@2x.png in Resources */,
 				670418C817F2E53F003FFFF7 /* overlay_audio_touch.png in Resources */,
 				670418C917F2E53F003FFFF7 /* overlay_audio_touch@2x.png in Resources */,
+				81AE5CE5182F0CCA0023B03E /* vagus_152.png in Resources */,
 				670418CA17F2E53F003FFFF7 /* overlay_audio.png in Resources */,
 				670418CB17F2E53F003FFFF7 /* overlay_audio@2x.png in Resources */,
 				670418CC17F2E53F003FFFF7 /* overlay_video_touch.png in Resources */,
 				670418CD17F2E53F003FFFF7 /* overlay_video_touch@2x.png in Resources */,
 				670418CE17F2E53F003FFFF7 /* overlay_video.png in Resources */,
 				670418CF17F2E53F003FFFF7 /* overlay_video@2x.png in Resources */,
+				81AE5CE3182F0CCA0023B03E /* vagus_120.png in Resources */,
 				67B1647117F3501900D34AE8 /* business_daily.jpg in Resources */,
 				67B1647217F3501900D34AE8 /* business_daily@2x.jpg in Resources */,
 				67B1647317F3501900D34AE8 /* business_summary.jpg in Resources */,
@@ -1584,6 +1640,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81DE8359182F0E81004C79CB /* NewsListViewController.m in Sources */,
 				674A3D6817ECA28B00F2C1F4 /* NSData+Base64.m in Sources */,
 				67AD544317E5ED9C00D8BF6D /* main.m in Sources */,
 				67AD544717E5ED9C00D8BF6D /* AppDelegate.m in Sources */,
@@ -1607,7 +1664,6 @@
 				67AD549E17E5EE3600D8BF6D /* TableViewController.m in Sources */,
 				67AD54A817E5F00600D8BF6D /* BaseDataModelViewController.m in Sources */,
 				67AD54A917E5F00600D8BF6D /* BaseUploadDataViewController.m in Sources */,
-				67AD54B017E5F0FB00D8BF6D /* NewsListViewController.m in Sources */,
 				67AD54B617E61BDA00D8BF6D /* NewsFeedView.m in Sources */,
 				67AD54BD17E61CB600D8BF6D /* ALImageView.m in Sources */,
 				67AD54C017E6203C00D8BF6D /* RSSNewsStoreController.m in Sources */,
