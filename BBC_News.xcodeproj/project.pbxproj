@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1FE14DC9EDC4455C9F04254F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C01E3F0B0F4C6C82975180 /* libPods.a */; };
 		31B17654182BE274006B48DF /* vagus_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31B17653182BE274006B48DF /* vagus_logo@2x.png */; };
+		31DE215E183115EA0094C31B /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DE835A182FC6E5004C79CB /* libTestFlight.a */; };
 		5227C4F517E9D9AB0070F999 /* shareButtonsView.png in Resources */ = {isa = PBXBuildFile; fileRef = 5227C4F417E9D9AB0070F999 /* shareButtonsView.png */; };
 		5227C4F917E9DA400070F999 /* SharePopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227C4F717E9DA400070F999 /* SharePopoverView.m */; };
 		5227C4FA17E9DA400070F999 /* SharePopoverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5227C4F817E9DA400070F999 /* SharePopoverView.xib */; };
@@ -188,7 +189,6 @@
 		81AE5CEA182F0DC60023B03E /* vagus_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CE8182F0DC60023B03E /* vagus_50.png */; };
 		81C264121830410500AD0FCA /* youtube-resize.js in Sources */ = {isa = PBXBuildFile; fileRef = 81C264111830410500AD0FCA /* youtube-resize.js */; };
 		81DE8359182F0E81004C79CB /* NewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AD54AF17E5F0FB00D8BF6D /* NewsListViewController.m */; };
-		81DE8360182FC74E004C79CB /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DE835F182FC74E004C79CB /* libTestFlight.a */; };
 		81DE8362182FC8CF004C79CB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DE8361182FC8CF004C79CB /* libz.dylib */; };
 		81DE8364183003DC004C79CB /* atomVagus.txt in Resources */ = {isa = PBXBuildFile; fileRef = 81DE8363183003DC004C79CB /* atomVagus.txt */; };
 		8659D51317EDC2330029135D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D51217EDC2330029135D /* Default@2x.png */; };
@@ -609,8 +609,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31DE215E183115EA0094C31B /* libTestFlight.a in Frameworks */,
 				81DE8362182FC8CF004C79CB /* libz.dylib in Frameworks */,
-				81DE8360182FC74E004C79CB /* libTestFlight.a in Frameworks */,
 				674A3D3A17EC746600F2C1F4 /* MessageUI.framework in Frameworks */,
 				674A3D3217EC3C6A00F2C1F4 /* CoreText.framework in Frameworks */,
 				674A3D2517EB9C2A00F2C1F4 /* Reveal.framework in Frameworks */,
@@ -1798,10 +1798,11 @@
 					"$(inherited)",
 					/Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data,
 					/Users/evgenbakumenko/Downloads/TestFlightSDK2.0.2,
+					/Users/warexi/Desktop/vagus_news/BBC_News/Data,
 				);
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "10B6508A-2460-4E2E-92FB-0BAFA16B6502";
+				PROVISIONING_PROFILE = "0CF36390-6D9D-40DB-8502-8CAB42CBF8D2";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1825,11 +1826,12 @@
 					"$(inherited)",
 					/Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data,
 					/Users/evgenbakumenko/Downloads/TestFlightSDK2.0.2,
+					/Users/warexi/Desktop/vagus_news/BBC_News/Data,
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "10B6508A-2460-4E2E-92FB-0BAFA16B6502";
+				PROVISIONING_PROFILE = "0CF36390-6D9D-40DB-8502-8CAB42CBF8D2";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
