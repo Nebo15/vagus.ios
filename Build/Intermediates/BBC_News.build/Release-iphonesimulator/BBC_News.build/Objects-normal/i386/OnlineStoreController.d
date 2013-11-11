@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/DataModel/OnlineStoreController.m \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/DataModel/OnlineStoreController.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/DataModel/DataStoreAbstract.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/DataModel/BaseDataModel.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data/../Network/NetworkConnection/WBRequest.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data/../Network/NetworkConnection/WBEngine.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data/../Network/LoadingView/LoadingViewController.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data/../Network/NetworkConnection/WBConnection.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data/../Network/JSON/JSON.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data/../Network/JSON/SBJSON.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data/../Network/JSON/SBJsonParser.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data/../Network/JSON/SBJsonBase.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data/../Network/JSON/SBJsonWriter.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data/../Network/JSON/NSObject+SBJSON.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data/../Network/JSON/NSString+SBJSON.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data/../MWFeedParser/MWFeedParser.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data/../MWFeedParser/MWFeedInfo.h \
+  /Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data/../MWFeedParser/MWFeedItem.h

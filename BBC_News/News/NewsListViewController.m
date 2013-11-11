@@ -53,11 +53,11 @@
 }
 
 - (void)pullItems:(NSArray*)itemsAr toMutableArray:(NSMutableArray*)mAr{
-    NSArray* tagsArray = @[@"?kategori=manset+yanmanset+manset",@"?tag=Ankara",@"?tag=direnis+eylem+protest",@"?tag=Ortadoğu",@"?tag=bdp+kck+pkk",@"?tag=Video",@"?tag=Avam",@"?tag=hayatın-içinden",@"?tag=Kültur-Sanat",@"?tag=Bilim-Teknoloji",@"?tag=Sağlık",@"?tag=Spor"];
+    NSArray* tagsArray = @[@"cat=manset",@"tag=ankara-havasi",@"tag=derin-siyaset",@"tag=ortadogu",@"tag=kurt-dosyasi",@"cat=video",@"cat=avam-kamerasi",@"tag=hayatin-icinden",@"tag=kultur-sanat",@"tag=bilim-teknoloji",@"tag=saglik",@"tag=spor"];
     for (int i = 0; i < [itemsAr count]; i++) {
         @try {
             CategoryItem *categoryItem = [[CategoryItem alloc]initWithTitle:itemsAr[i]
-                                                                   feed_url:[NSString stringWithFormat:@"http://vagus.tv/feed/atom/%@",tagsArray[i]]];
+                                                                   feed_url:[NSString stringWithFormat:@"http://vagus.tv/feed/atom/?%@",tagsArray[i]]];
 //            if ([dict objectForKey:@"defaultStr"]) {
 //                categoryItem.defaultStr = [dict objectForKey:@"defaultStr"];
 //            }
@@ -573,15 +573,6 @@
         {
             radioButton = [Helpers createButtonWithNormalImg:[UIImage imageNamed:@"liveRadioLandscape"] highlightImg:[UIImage imageNamed:@"liveRadio0Landscape"] delegate:self selector:@selector(onLiveRadioBtn:)];
         }
-        
-    //    UIBarButtonItem *radioBtnItem = [[UIBarButtonItem alloc] initWithCustomView:radioButton];
-     //   [self.navigationItem setLeftBarButtonItem:radioBtnItem];
-        if ([[AppDelegate sharedDelegate] isRadioPlaying]) {
-            [radioButton setSelected:YES];
-        }else{
-            [radioButton setSelected:NO];
-        }
-        [self aplyAnimationForRadiopButton:radioButton];
         
         // Right navigation items
         

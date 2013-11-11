@@ -48,7 +48,7 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="imageView" destination="3" id="6"/>
+                <outlet property="imageView" destination="3" id="Qet-Vu-pbf"/>
                 <outlet property="titleLbl" destination="5" id="7"/>
             </connections>
         </view>

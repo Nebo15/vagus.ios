@@ -83,24 +83,17 @@
 - (void)feedParser:(MWFeedParser *)parser didParseFeedItem:(MWFeedItem *)item {
 //	NSLog(@"Parsed Feed Item: “%@”", item.title);
     
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
         NSRegularExpression *regexp =
         [NSRegularExpression regularExpressionWithPattern:@"http://(?:[a-z]+.)+[a-z]{2,6}(?:/[^/#?]+)+.(?:jpg|gif|png)"
                                                   options:NSRegularExpressionCaseInsensitive
                                                     error:NULL];
-        NSArray *array = [regexp matchesInString:item.content options:0 range:NSMakeRange(0, item.content.length)];
+        NSArray *array = [regexp matchesInString:item.summary options:0 range:NSMakeRange(0, item.summary.length)];
         NSRange matchRange;
         if ([array count] > 0) {
             matchRange = [array[0] rangeAtIndex:0];
-            item.thumbnail = [item.content substringWithRange:matchRange];
-        }
-        else
-        {
-            array = [regexp matchesInString:item.summary options:0 range:NSMakeRange(0, item.summary.length)];
-            if ([array count] > 0) {
-                matchRange = [array[0] rangeAtIndex:0];
-                item.thumbnail = [item.summary substringWithRange:matchRange];
-            }
+            item.thumbnail = [item.summary substringWithRange:matchRange];
+            NSLog(@"%@",item.thumbnail);
         }
     });
     

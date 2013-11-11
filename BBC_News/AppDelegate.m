@@ -10,6 +10,7 @@
 #import "Reachability.h"
 #import "NewsListViewController.h"
 #import <MediaPlayer/MediaPlayer.h>
+#import "TestFlight.h"
 
 @implementation AppDelegate
 
@@ -20,6 +21,7 @@
     self.viewController = [[NewsListViewController alloc] initWithNibName:@"NewsListViewController" bundle:nil];
     self.rootNavigationController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
     [self.rootNavigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top-bar-color"] forBarMetrics:UIBarMetricsDefault];
+    [TestFlight takeOff:@"a6341102-faf4-4dfc-8fc2-289e20d7e0fb"];
     
     self.window.rootViewController = self.rootNavigationController;
     [self.window makeKeyAndVisible];
@@ -90,39 +92,6 @@
     NSString *carrierPListPath = [fm destinationOfSymbolicLinkAtPath:carrierPListSymLinkPath error:&error];
     NSString *operatorPListPath = [fm destinationOfSymbolicLinkAtPath:operatorPListSymLinkPath error:&error];
     return (![operatorPListPath isEqualToString:carrierPListPath]);
-}
-
-
-- (void)stopRadio{
-    [audioPlayer stop];
-        playing = NO;
-}
-
-- (void)playRadio{
-    if (!audioPlayer) {
-        audioPlayer = [[AudioPlayer alloc] init];
-        AudioPlayerView* audioPlayerView = [[AudioPlayerView alloc] initWithFrame:CGRectZero];
-        
-        audioPlayerView.delegate = self;
-        audioPlayerView.audioPlayer = audioPlayer;
-    }
-    NSURL *streamURL = [NSURL URLWithString:@"http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk"];
-    if(!playing)
-    {
-        [audioPlayer setDataSource:[audioPlayer dataSourceFromURL:streamURL] withQueueItemId:streamURL];
-        playing = YES;
-    }
-}
-
-- (BOOL) isRadioPlaying{
-    return playing;
-}
-
-#pragma mark AudioPlayerViewDelegate
-- (void)audioPlayerViewPlayFromLocalFileSelected:(AudioPlayerView *)audioPlayerView{
-}
-
-- (void)audioPlayerViewPlayFromHTTPSelected:(AudioPlayerView *)audioPlayerView{
 }
 
 @end

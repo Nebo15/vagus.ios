@@ -62,9 +62,7 @@
         [itemView setFrame:itemFrame];
         index++;
         [queue addOperationWithBlock:^{
-//            if ( itemView.frame.origin.x < self.scrollImagesView.contentOffset.x + self.scrollImagesView.frame.size.width+itemView.frame.size.width*2) {
-                [itemView loadData];
-//            }
+            [itemView loadData];
         }];
     }
 }
@@ -101,16 +99,16 @@
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
-    for (NewsItemView *itemView in scrollView.subviews) {
-        if ( itemView.frame.origin.x < scrollView.contentOffset.x + scrollView.frame.size.width+itemView.frame.size.width*2) {
-            [queue addOperationWithBlock:^{
-                    [itemView loadData];
-            }];
-        }else{
-            [itemView clearData];
-
-        }
-    }
+//    for (NewsItemView *itemView in scrollView.subviews) {
+//        if ( itemView.frame.origin.x < scrollView.contentOffset.x + scrollView.frame.size.width+itemView.frame.size.width*2) {
+//            [queue addOperationWithBlock:^{
+//                    [itemView loadData];
+//            }];
+//        }else{
+//            [itemView clearData];
+//
+//        }
+//    }
 
 }
 

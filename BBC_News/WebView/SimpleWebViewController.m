@@ -290,7 +290,6 @@ documentsDirectory = [paths objectAtIndex:0];
                      <p>%@</p>",href,imgUrl,feedItem.summary,feedItem.summary];
         return dirtyHtml;
     }
-    
     dirtyHtml = [dirtyHtml replaceSubStringIn:dirtyHtml withString:@"http://" byRegularExpressionWithPattern:@"bbcimage://[^/]*/(.*)"];
     dirtyHtml = [dirtyHtml replaceSubStringSeccondIn:dirtyHtml withString:@"iphone" byRegularExpressionWithPattern:@"%7bdevice%7d"];
     dirtyHtml = [dirtyHtml replaceSubStringSeccondIn:dirtyHtml withString:@"iphone" byRegularExpressionWithPattern:@"%7Bdevice%7D"];

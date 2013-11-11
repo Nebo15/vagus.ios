@@ -13,12 +13,7 @@
 @class NewsListViewController;
 
 @interface AppDelegate : UIResponder <
-UIApplicationDelegate,
-AudioPlayerViewDelegate>
-{
-	AudioPlayer* audioPlayer;
-    BOOL playing;
-}
+UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) NewsListViewController *viewController;

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+  xmlns="http://www.w3.org/2005/Atom"
+  xmlns:thr="http://purl.org/syndication/thread/1.0"
+  xml:lang="tr-TR"
+  xml:base="http://vagus.tv/wp-atom.php"
+   >
+	<title type="text">VAGUS.TV &#187; video</title>
+	<subtitle type="text">OLDUĞU GİBİ</subtitle>
+
+	<updated>2013-11-10T17:23:59Z</updated>
+
+	<link rel="alternate" type="text/html" href="http://vagus.tv" />
+	<id>http://vagus.tv/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="http://vagus.tv/feed/atom/?tag=video" />
+
+	<generator uri="http://wordpress.org/" version="3.6.1">WordPress</generator>
+		<entry>
+		<author>
+			<name>Gözde Kadıoğlu</name>
+					</author>
+		<title type="html"><![CDATA[Dick oluyor sayın Schwarzenegger?]]></title>
+		<link rel="alternate" type="text/html" href="http://vagus.tv/2013/10/23/neler-oluyor-sayin-schwarzenegger/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=neler-oluyor-sayin-schwarzenegger" />
+		<id>http://vagus.tv/?p=22403</id>
+		<updated>2013-10-23T14:22:06Z</updated>
+		<published>2013-10-23T14:22:06Z</published>
+		<category scheme="http://vagus.tv" term="Gündem" /><category scheme="http://vagus.tv" term="Arnold Schwarzenegger" /><category scheme="http://vagus.tv" term="video" /><category scheme="http://vagus.tv" term="youtube" />		<summary type="html"><![CDATA[<p>Ünlü oyuncu ve eski vali Arnold Schwarzenegger, yeni filmi &#8216;Escape Plan&#8217; için enteresan bir kampanya başlattı.</p> <p>&#160;</p> <p>Schwarzenegger oyunculuk kariyeri boyunca kült hale]]></summary>
+		<content type="html" xml:base="http://vagus.tv/2013/10/23/neler-oluyor-sayin-schwarzenegger/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=neler-oluyor-sayin-schwarzenegger"><![CDATA[<p>Ünlü oyuncu ve eski vali Arnold Schwarzenegger, yeni filmi &#8216;Escape Plan&#8217; için enteresan bir kampanya başlattı.</p>
+<p>&nbsp;</p>
+<p>Schwarzenegger oyunculuk kariyeri boyunca kült hale gelen repliklerini kısa videolar halinde çekerek internette paylaşmaya başladı.</p>
+<p>&nbsp;</p>
+<p>İşte o videolardan bazıları</p>
+<p>&nbsp;</p>
+<p><strong>&#8220;O kurabiyeyi derhal bırak&#8221;</strong></p>
+<p><iframe width=“290” height=“290” src="http://www.youtube.com/embed/7HrnWC8zBcE?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>&nbsp;</p>
+<p><strong>&#8220;Umarım vücudunda yumruğuma yer vardır. Çünkü az sonra midene indireceğim yeaah&#8221;</strong></p>
+<p><iframe width=“290” height=“290” src="http://www.youtube.com/embed/FeyyVGnlg1w?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>&nbsp;</p>
+<p><strong>Conan&#8217;dan bir bölüm</strong></p>
+<p><iframe width=“290” height=“290” src="http://www.youtube.com/embed/PBux0VPPo7g?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>&nbsp;</p>
+<p><strong>&#8220;Baban kim ve ne iş yapıyor?&#8221;</strong></p>
+<p><iframe width=“290” height=“290” src="http://www.youtube.com/embed/pFByTlzYFAM?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://vagus.tv/2013/10/23/neler-oluyor-sayin-schwarzenegger/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=neler-oluyor-sayin-schwarzenegger#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://vagus.tv/2013/10/23/neler-oluyor-sayin-schwarzenegger/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>rabiacelik</name>
+					</author>
+		<title type="html"><![CDATA[Facebook&#8217;ta &#8216;kafa kesme&#8217; videoları artık serbest]]></title>
+		<link rel="alternate" type="text/html" href="http://vagus.tv/2013/10/22/facebookta-kafa-kesme-videolari-artik-serbest/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=facebookta-kafa-kesme-videolari-artik-serbest" />
+		<id>http://vagus.tv/?p=21984</id>
+		<updated>2013-10-22T08:44:09Z</updated>
+		<published>2013-10-22T08:44:09Z</published>
+		<category scheme="http://vagus.tv" term="Gündem" /><category scheme="http://vagus.tv" term="facebook" /><category scheme="http://vagus.tv" term="kafa kesme" /><category scheme="http://vagus.tv" term="törör" /><category scheme="http://vagus.tv" term="video" />		<summary type="html"><![CDATA[<p>Sosyal medya devi Facebook, çok tartışılacak bir karar aldı. Daha önce kanlı &#8216;kafa kesme görüntülerini&#8217; yasaklayan site, bu görüntüleri yüklemenin bundan sonra serbest]]></summary>
+		<content type="html" xml:base="http://vagus.tv/2013/10/22/facebookta-kafa-kesme-videolari-artik-serbest/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=facebookta-kafa-kesme-videolari-artik-serbest"><![CDATA[<p>Sosyal medya devi Facebook, çok tartışılacak bir karar aldı. Daha önce kanlı &#8216;kafa kesme görüntülerini&#8217; yasaklayan site, bu görüntüleri yüklemenin bundan sonra serbest olduğunu açıkladı.</p>
+<p><a href="http://vagus.tv/wp-content/uploads/2013/10/suriye-azaz-el-nusra-korkunc-infazlar-kafa-kesme.jpg"><img class="alignleft size-large wp-image-21986" alt="suriye-azaz-el-nusra-korkunc-infazlar-kafa-kesme" src="http://vagus.tv/wp-content/uploads/2013/10/suriye-azaz-el-nusra-korkunc-infazlar-kafa-kesme-665x380.jpg" width="585" height="334" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Facebook, kısa bir süre önce yasakladığı kafa kesme içerikli video görüntülerine sessiz sedasız yeniden yer vermeye başladı.</p>
+<p>&nbsp;</p>
+<p>BBC’nin dün yer verdiği haberin ardından açıklama yapan Facebook, ‘kafa kesme eylemi içeren video ve fotoğrafların, kullanıcılar tarafından kutlama değil ama kınama amaçlı konması halinde yasaklanmayacağını’ açıkladı.</p>
+<p>&nbsp;</p>
+<p>Şirketten yapılan açıklamada, “Facebook, uzun süredir kullanıcıların tecrübelerini paylaştıkları bir ortam oldu. Özellikle insan hakları ihlalleri, terör eylemleri ve diğer şiddet olaylarıyla bağlantılı olayla paylaşımlarda öne çıktı” denildi.</p>
+<p>&nbsp;</p>
+<p>Açıklamanın devamında, “Kullanıcılar, şiddet eylemlerine ait videoları kınama amaçlı paylaşıyor. Eğer bu görüntüler kutlanıyor veya paylaşımları teşvik ediliyor olsaydı, başka türlü davranırdık” ifadesi kullanıldı.</p>
+<p>&nbsp;</p>
+<p>Sosyal ağ, kullanıcıların paylaştığı ve görecekleri içerikleri kontrol etmeleri için de yeni mekanizmalar konulacağını belirtti. Bunlar arasında, görüntülere bakılmadan önce belirecek uyarılar yer alıyor.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Kaynak: <a href="http://www.radikal.com.tr/hayat/facebooktan_kafa_kesme_videolarina_yesil_isik-1156651">Radikal</a></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://vagus.tv/2013/10/22/facebookta-kafa-kesme-videolari-artik-serbest/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=facebookta-kafa-kesme-videolari-artik-serbest#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://vagus.tv/2013/10/22/facebookta-kafa-kesme-videolari-artik-serbest/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Merve Tiryaki</name>
+					</author>
+		<title type="html"><![CDATA[Gerçekliğe bir adım kala&#8230;]]></title>
+		<link rel="alternate" type="text/html" href="http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gerceklige-bir-adim-kala" />
+		<id>http://vagus.tv/?p=14421</id>
+		<updated>2013-09-22T14:32:49Z</updated>
+		<published>2013-09-22T14:32:17Z</published>
+		<category scheme="http://vagus.tv" term="Gündem" /><category scheme="http://vagus.tv" term="çizim" /><category scheme="http://vagus.tv" term="fotogaleri" /><category scheme="http://vagus.tv" term="Marcello Barenghi" /><category scheme="http://vagus.tv" term="sanat" /><category scheme="http://vagus.tv" term="video" />		<summary type="html"><![CDATA[<p>İtalyan sanatçı Marcello Barenghi&#8217;nin çizimleri akıllara durgunluk veriyor. İnanılmaz derecede gerçekçi çizimleri sanatçı, renkli kalemler ile yer yer suluboya ve keçeli kalem kullanarak]]></summary>
+		<content type="html" xml:base="http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gerceklige-bir-adim-kala"><![CDATA[<p>İtalyan sanatçı Marcello Barenghi&#8217;nin çizimleri akıllara durgunluk veriyor. İnanılmaz derecede gerçekçi çizimleri sanatçı, renkli kalemler ile yer yer suluboya ve keçeli kalem kullanarak yapıyor. Barenghi, 10 Euro&#8217;luk banknotu çizmek için 5 saat 21 dakika harcamış.</p>
+<p>&nbsp;</p>
+<p><iframe width="585" height="439" src="http://www.youtube.com/embed/videoseries?list=UUcBnT6LsxANZjUWqpjR8Jpw" frameborder="0" allowfullscreen></iframe></p>
+<p>&nbsp;</p>
+
+<a href='http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/10-euro/' title='10-euro'><img width="150" height="150" src="http://vagus.tv/wp-content/uploads/2013/09/10-euro-150x150.jpg" class="attachment-thumbnail" alt="10-euro" /></a>
+<a href='http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/caraffa-rame/' title='caraffa-rame'><img width="150" height="150" src="http://vagus.tv/wp-content/uploads/2013/09/caraffa-rame-150x150.jpg" class="attachment-thumbnail" alt="caraffa-rame" /></a>
+<a href='http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/corriere-della-sera/' title='corriere-della-sera'><img width="150" height="150" src="http://vagus.tv/wp-content/uploads/2013/09/corriere-della-sera-150x150.jpg" class="attachment-thumbnail" alt="corriere-della-sera" /></a>
+<a href='http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/fg/' title='fg'><img width="150" height="150" src="http://vagus.tv/wp-content/uploads/2013/09/fg-150x150.jpg" class="attachment-thumbnail" alt="fg" /></a>
+<a href='http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/g-2/' title='g'><img width="150" height="150" src="http://vagus.tv/wp-content/uploads/2013/09/g1-150x150.jpg" class="attachment-thumbnail" alt="g" /></a>
+<a href='http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/gcn/' title='gcn'><img width="150" height="150" src="http://vagus.tv/wp-content/uploads/2013/09/gcn-150x150.jpg" class="attachment-thumbnail" alt="gcn" /></a>
+<a href='http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/gdd/' title='gdd'><img width="150" height="150" src="http://vagus.tv/wp-content/uploads/2013/09/gdd-150x150.jpg" class="attachment-thumbnail" alt="gdd" /></a>
+<a href='http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/goz-2/' title='goz'><img width="150" height="150" src="http://vagus.tv/wp-content/uploads/2013/09/goz-150x150.jpg" class="attachment-thumbnail" alt="goz" /></a>
+<a href='http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/h/' title='h'><img width="150" height="150" src="http://vagus.tv/wp-content/uploads/2013/09/h-150x150.jpg" class="attachment-thumbnail" alt="h" /></a>
+<a href='http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/sdfsd/' title='sdfsd'><img width="150" height="150" src="http://vagus.tv/wp-content/uploads/2013/09/sdfsd-150x150.jpg" class="attachment-thumbnail" alt="sdfsd" /></a>
+<a href='http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/snikers/' title='snikers'><img width="150" height="150" src="http://vagus.tv/wp-content/uploads/2013/09/snikers-150x150.jpg" class="attachment-thumbnail" alt="snikers" /></a>
+<a href='http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/teiera-cinese/' title='teiera-cinese'><img width="150" height="150" src="http://vagus.tv/wp-content/uploads/2013/09/teiera-cinese-150x150.jpg" class="attachment-thumbnail" alt="teiera-cinese" /></a>
+<a href='http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/xcv/' title='xcv'><img width="150" height="150" src="http://vagus.tv/wp-content/uploads/2013/09/xcv-150x150.jpg" class="attachment-thumbnail" alt="xcv" /></a>
+<a href='http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/xdgv/' title='xdgv'><img width="150" height="150" src="http://vagus.tv/wp-content/uploads/2013/09/xdgv-150x150.jpg" class="attachment-thumbnail" alt="xdgv" /></a>
+<a href='http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/marco-6/' title='marco-6'><img width="150" height="150" src="http://vagus.tv/wp-content/uploads/2013/09/marco-6-150x150.jpg" class="attachment-thumbnail" alt="marco-6" /></a>
+
+<p>&nbsp;</p>
+<p>Kaynak: <a href="http://www.marcellobarenghi.com/">Marcello Barenghi</a></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gerceklige-bir-adim-kala#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://vagus.tv/2013/09/22/gerceklige-bir-adim-kala/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Merve Tiryaki</name>
+					</author>
+		<title type="html"><![CDATA[Çölün ortasında bir festival: Burning Man]]></title>
+		<link rel="alternate" type="text/html" href="http://vagus.tv/2013/09/12/colun-ortasinda-bir-festival-burning-man/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=colun-ortasinda-bir-festival-burning-man" />
+		<id>http://vagus.tv/?p=12436</id>
+		<updated>2013-09-13T07:08:56Z</updated>
+		<published>2013-09-12T18:19:21Z</published>
+		<category scheme="http://vagus.tv" term="En Popüler Video Haberler" /><category scheme="http://vagus.tv" term="Gündem" /><category scheme="http://vagus.tv" term="abd" /><category scheme="http://vagus.tv" term="burning man" /><category scheme="http://vagus.tv" term="festival" /><category scheme="http://vagus.tv" term="nevada" /><category scheme="http://vagus.tv" term="video" />		<summary type="html"><![CDATA[<p>Burning Man Festivali, 1990&#8242;dan beri her yıl Ağustos ayının son haftası Amerika Birleşik Devletleri&#8217;nin Nevada eyaletindeki Black Rock Desert&#8217;ta gerçekleşiyor. Festival kapsamında sanatçılar kampın]]></summary>
+		<content type="html" xml:base="http://vagus.tv/2013/09/12/colun-ortasinda-bir-festival-burning-man/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=colun-ortasinda-bir-festival-burning-man"><![CDATA[<p>Burning Man Festivali, 1990&#8242;dan beri her yıl Ağustos ayının son haftası Amerika Birleşik Devletleri&#8217;nin Nevada eyaletindeki Black Rock Desert&#8217;ta gerçekleşiyor. Festival kapsamında sanatçılar kampın ortasında, teması daha önceden belirlenmiş olan festival için hazırladıkları çalışmalarını sergiliyorlar.</p>
+<p>&nbsp;</p>
+<p><iframe width="585" height="439" src="http://www.youtube.com/embed/m2ThTb6iffA?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://vagus.tv/2013/09/12/colun-ortasinda-bir-festival-burning-man/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=colun-ortasinda-bir-festival-burning-man#comments" thr:count="1"/>
+		<link rel="replies" type="application/atom+xml" href="http://vagus.tv/2013/09/12/colun-ortasinda-bir-festival-burning-man/feed/atom/" thr:count="1"/>
+		<thr:total>1</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Merve Tiryaki</name>
+					</author>
+		<title type="html"><![CDATA[Çocukluktan yaşlılığa: Büyüleyici bir zamanaşımı videosu]]></title>
+		<link rel="alternate" type="text/html" href="http://vagus.tv/2013/09/12/cocukluktan-yasliliga-buyuleyici-bir-zamanasimi-videosu/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cocukluktan-yasliliga-buyuleyici-bir-zamanasimi-videosu" />
+		<id>http://vagus.tv/?p=12434</id>
+		<updated>2013-09-12T17:35:22Z</updated>
+		<published>2013-09-12T17:33:09Z</published>
+		<category scheme="http://vagus.tv" term="En Popüler Video Haberler" /><category scheme="http://vagus.tv" term="Gündem" /><category scheme="http://vagus.tv" term="video" /><category scheme="http://vagus.tv" term="yaşlanma" /><category scheme="http://vagus.tv" term="zamanaşımı" />		<summary type="html"><![CDATA[<p>Anthony Cerniello&#8217;nun simülasyon videosu aklınızı başınızdan alacak.</p> <p>&#160;</p> <p>Cerniello arkadaşı Danielle&#8217;i model olarak kullandı. Danielle&#8217;in genç ve yaşlı akrabalarından Danielle&#8217;e en çok benzeyenlerin]]></summary>
+		<content type="html" xml:base="http://vagus.tv/2013/09/12/cocukluktan-yasliliga-buyuleyici-bir-zamanasimi-videosu/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cocukluktan-yasliliga-buyuleyici-bir-zamanasimi-videosu"><![CDATA[<p>Anthony Cerniello&#8217;nun simülasyon videosu aklınızı başınızdan alacak.</p>
+<p>&nbsp;</p>
+<p>Cerniello arkadaşı Danielle&#8217;i model olarak kullandı. Danielle&#8217;in genç ve yaşlı akrabalarından Danielle&#8217;e en çok benzeyenlerin fotoğraflarını birleştirdi. Sonrasında animatörler ve 3D uzmanları eseri hayata geçirdi.</p>
+<p>&nbsp;</p>
+<p><iframe src="//player.vimeo.com/video/74033442" height="281" width="500" allowfullscreen=""></iframe></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://vagus.tv/2013/09/12/cocukluktan-yasliliga-buyuleyici-bir-zamanasimi-videosu/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cocukluktan-yasliliga-buyuleyici-bir-zamanasimi-videosu#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://vagus.tv/2013/09/12/cocukluktan-yasliliga-buyuleyici-bir-zamanasimi-videosu/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Merve Tiryaki</name>
+					</author>
+		<title type="html"><![CDATA[Okyanusun dibindeki küçük sanatçı]]></title>
+		<link rel="alternate" type="text/html" href="http://vagus.tv/2013/08/31/okyanusun-dibindeki-kucuk-sanatci/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=okyanusun-dibindeki-kucuk-sanatci" />
+		<id>http://vagus.tv/?p=10044</id>
+		<updated>2013-08-31T11:36:08Z</updated>
+		<published>2013-08-31T11:33:28Z</published>
+		<category scheme="http://vagus.tv" term="En Popüler Video Haberler" /><category scheme="http://vagus.tv" term="Gündem" /><category scheme="http://vagus.tv" term="kirpi balığı" /><category scheme="http://vagus.tv" term="okyanus" /><category scheme="http://vagus.tv" term="sanat" /><category scheme="http://vagus.tv" term="video" />		<summary type="html"><![CDATA[<p>&#160;</p> <p>İnsanoğlu okyanusların sadece yüzde 5&#8242;ini görmüş. Derin suların altında keşfedilecek daha birçok şey var.</p> <p>&#160; Onlardan biri de içgüdüleriyle okyanus dibine şekil]]></summary>
+		<content type="html" xml:base="http://vagus.tv/2013/08/31/okyanusun-dibindeki-kucuk-sanatci/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=okyanusun-dibindeki-kucuk-sanatci"><![CDATA[<div class="wp-caption alignnone" style="width: 590px"><a href="http://vagus.tv/wp-content/uploads/2013/08/kirpi.jpg"><img alt="kirpi" src="http://vagus.tv/wp-content/uploads/2013/08/kirpi.jpg" width="580" height="435" /></a><p class="wp-caption-text">Erkek kirpi balığı</p></div>
+<p>&nbsp;</p>
+<p>İnsanoğlu okyanusların sadece yüzde 5&#8242;ini görmüş. Derin suların altında keşfedilecek daha birçok şey var.</p>
+<p>&nbsp;<br />
+Onlardan biri de içgüdüleriyle okyanus dibine şekil veren küçük sanatçı, kirpi balığı. Dişi kirpi balıklarını etkilemek için okyanusun dibinde kumsala çizdiği bu şeklin merkezine dişi kirpi balığı yumurtalarını bırakıyor.</p>
+<p>&nbsp;<br />
+Deniz seviyesinden yaklaşık 24 metre aşağıda 180 santimetre uzunluğundaki bu eseri Japon fotoğrafçı Yoji Ookata keşfetmiş.</p>
+<p>&nbsp;</p>
+<p><iframe width="585" height="439" src="http://www.youtube.com/embed/kj-K_pFoaDo?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://vagus.tv/2013/08/31/okyanusun-dibindeki-kucuk-sanatci/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=okyanusun-dibindeki-kucuk-sanatci#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://vagus.tv/2013/08/31/okyanusun-dibindeki-kucuk-sanatci/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Merve Tiryaki</name>
+					</author>
+		<title type="html"><![CDATA[6 saniyenizi ayırır mısınız?]]></title>
+		<link rel="alternate" type="text/html" href="http://vagus.tv/2013/08/27/6-saniye-ayirir-misiniz/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=6-saniye-ayirir-misiniz" />
+		<id>http://vagus.tv/?p=9195</id>
+		<updated>2013-08-27T10:20:40Z</updated>
+		<published>2013-08-27T07:08:12Z</published>
+		<category scheme="http://vagus.tv" term="Gündem" /><category scheme="http://vagus.tv" term="huffington post" /><category scheme="http://vagus.tv" term="video" /><category scheme="http://vagus.tv" term="vine" />		<summary type="html"><![CDATA[<p>Twitter&#8217;ın mikro-video uygulaması Vine, sosyal medya cenerasyonu için belki de eğlencenin en iyi şekli. Her video için 6 saniyelik limitinin olması, Vine kullanıcılarınn]]></summary>
+		<content type="html" xml:base="http://vagus.tv/2013/08/27/6-saniye-ayirir-misiniz/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=6-saniye-ayirir-misiniz"><![CDATA[<p>Twitter&#8217;ın mikro-video uygulaması Vine, sosyal medya cenerasyonu için belki de eğlencenin en iyi şekli. Her video için 6 saniyelik limitinin olması, Vine kullanıcılarınn yaratıcılıklarını zorlarken, izleyiciler için de içeriği anlamayı kolaylaştırıyor. Sonuç olarak ortaya çok komik, şaşırtıcı ve özgün mini-filmler çıkıyor.<br />
+Huffington Post, haftanın en iyi Vine videolarından bir derleme yaptı. Eğer sevdiğiniz bir şey görürseniz, Vine uygulaması üzerinden videoyu yapanı takip edebilirsiniz. Eğer sevmezseniz, bitmesi için sadece birkaç saniye bekleyin.</p>
+<div style='text-align:center'>
+<p><script type='text/javascript' src='http://pshared.5min.com/Scripts/PlayerSeed.js?sid=281&#038;width=560&#038;height=345&#038;playList=517908538'></script></p>
+<p><br/></p>
+</div>
+]]></content>
+		<link rel="replies" type="text/html" href="http://vagus.tv/2013/08/27/6-saniye-ayirir-misiniz/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=6-saniye-ayirir-misiniz#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://vagus.tv/2013/08/27/6-saniye-ayirir-misiniz/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Merve Tiryaki</name>
+					</author>
+		<title type="html"><![CDATA[Azerbaycanlı spiker Erdoğan&#8217;a ateş püskürdü]]></title>
+		<link rel="alternate" type="text/html" href="http://vagus.tv/2013/08/22/azeri-spiker-erdogana-ates-puskurdu/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=azeri-spiker-erdogana-ates-puskurdu" />
+		<id>http://vagus.tv/?p=8390</id>
+		<updated>2013-08-22T15:37:29Z</updated>
+		<published>2013-08-22T15:31:45Z</published>
+		<category scheme="http://vagus.tv" term="Gündem" /><category scheme="http://vagus.tv" term="azerbaycan" /><category scheme="http://vagus.tv" term="erdoğan" /><category scheme="http://vagus.tv" term="spiker" /><category scheme="http://vagus.tv" term="video" />		<summary type="html"><![CDATA[<p>Azerbaycanlı haber spikeri Erdoğan&#8217;ı ve politikalarını yerden yere vurdu. Azerilerin ve Türklerin kardeş olduğunu söyleyen spiker, &#8220;Kardeşlik tek taraflı olmaz. Araplara verdiğiniz önemin]]></summary>
+		<content type="html" xml:base="http://vagus.tv/2013/08/22/azeri-spiker-erdogana-ates-puskurdu/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=azeri-spiker-erdogana-ates-puskurdu"><![CDATA[<p>Azerbaycanlı haber spikeri Erdoğan&#8217;ı ve politikalarını yerden yere vurdu. Azerilerin ve Türklerin kardeş olduğunu söyleyen spiker, &#8220;Kardeşlik tek taraflı olmaz. Araplara verdiğiniz önemin dörtte birini güney Azerbaycan&#8217;a verin. Her yere yardım ediyorsun, Azerbaycan&#8217;a da bir ses verin&#8221; dedi.</p>
+<p><iframe width="585" height="439" src="http://www.youtube.com/embed/Viwyi1qKJQY?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://vagus.tv/2013/08/22/azeri-spiker-erdogana-ates-puskurdu/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=azeri-spiker-erdogana-ates-puskurdu#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://vagus.tv/2013/08/22/azeri-spiker-erdogana-ates-puskurdu/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Gözde Kadıoğlu</name>
+					</author>
+		<title type="html"><![CDATA[Polat Alemdar&#8217;dan Mısır&#8217;a videolu mesaj]]></title>
+		<link rel="alternate" type="text/html" href="http://vagus.tv/2013/08/19/polat-alemdardan-misira-videolu-mesaj/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=polat-alemdardan-misira-videolu-mesaj" />
+		<id>http://vagus.tv/?p=7677</id>
+		<updated>2013-08-19T10:55:15Z</updated>
+		<published>2013-08-19T10:55:15Z</published>
+		<category scheme="http://vagus.tv" term="Gündem" /><category scheme="http://vagus.tv" term="mısır" /><category scheme="http://vagus.tv" term="necati şaşmaz" /><category scheme="http://vagus.tv" term="polat alemdar" /><category scheme="http://vagus.tv" term="video" />		<summary type="html"><![CDATA[<p>&#160;</p> <p>&#160;</p> <p></p> <p>&#160;</p> <p>&#160;</p>]]></summary>
+		<content type="html" xml:base="http://vagus.tv/2013/08/19/polat-alemdardan-misira-videolu-mesaj/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=polat-alemdardan-misira-videolu-mesaj"><![CDATA[<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><iframe width="585" height="439" src="http://www.youtube.com/embed/R9N3eStqdHI?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://vagus.tv/2013/08/19/polat-alemdardan-misira-videolu-mesaj/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=polat-alemdardan-misira-videolu-mesaj#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://vagus.tv/2013/08/19/polat-alemdardan-misira-videolu-mesaj/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Merve Tiryaki</name>
+					</author>
+		<title type="html"><![CDATA[Bize yapılanı unutma, n&#8217;olur diren&#8230;]]></title>
+		<link rel="alternate" type="text/html" href="http://vagus.tv/2013/08/12/sana-yapilani-unutma-nolur-diren/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=sana-yapilani-unutma-nolur-diren" />
+		<id>http://vagus.tv/?p=6070</id>
+		<updated>2013-08-12T12:38:48Z</updated>
+		<published>2013-08-12T12:37:09Z</published>
+		<category scheme="http://vagus.tv" term="En Popüler Video Haberler" /><category scheme="http://vagus.tv" term="direniş" /><category scheme="http://vagus.tv" term="gezi" /><category scheme="http://vagus.tv" term="gezi parkı" /><category scheme="http://vagus.tv" term="nolur diren" /><category scheme="http://vagus.tv" term="video" />		<summary type="html"><![CDATA[<p>Gezi Parkı video kliplerinden tüyleri diken diken eden bir parça. Söz-müziği Elçin Özsoy ve SSC, klibin yönetmenliği Yılmaz Başar Babür&#8217;e ait..</p> <p></p>]]></summary>
+		<content type="html" xml:base="http://vagus.tv/2013/08/12/sana-yapilani-unutma-nolur-diren/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=sana-yapilani-unutma-nolur-diren"><![CDATA[<p>Gezi Parkı video kliplerinden tüyleri diken diken eden bir parça. Söz-müziği Elçin Özsoy ve SSC, klibin yönetmenliği Yılmaz Başar Babür&#8217;e ait..</p>
+<p><iframe width="585" height="329" src="http://www.youtube.com/embed/pnsaAqV9MKM?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://vagus.tv/2013/08/12/sana-yapilani-unutma-nolur-diren/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=sana-yapilani-unutma-nolur-diren#comments" thr:count="1"/>
+		<link rel="replies" type="application/atom+xml" href="http://vagus.tv/2013/08/12/sana-yapilani-unutma-nolur-diren/feed/atom/" thr:count="1"/>
+		<thr:total>1</thr:total>
+	</entry>
+	</feed>
+<!-- WP Super Cache is installed but broken. The constant WPCACHEHOME must be set in the file wp-config.php and point at the WP Super Cache plugin directory. -->

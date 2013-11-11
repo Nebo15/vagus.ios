@@ -34,13 +34,30 @@ c00000000527ED680000000000000008A
 t1384044160
 s138
 
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/libPods.a
+t1384093030
+s782776
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o
+t1384093030
+s3636
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods.LinkFileList
+c00000000527F9566000000000000008C
+t1384093030
+s140
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/libPods.a
+t1384093030
+s838720
+
 N/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods-AFNetworking.a
-c00000000527ED68000000000000BE4A8
-t1384044160
+c00000000528010A700000000000BE4A8
+t1384124583
 s779432
 
 N/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a
-t1384044160
+t1384124583
 s782776
 
 N/Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-dummy.m
@@ -56,7 +73,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7217e1480e2fb841^0743e1480e2fb841^---0#1#1#--18"Check dependencies36"7B5D12F0-10A0-4031-9E1E-B5C6EC24D7E3-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies906b7fa36830b841^ceaa7fa36830b841^---0#1#1#--18"Check dependencies36"183388FD-F8D3-45B3-AD3A-918270490DE8-
 
 CCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s405736960.628860
@@ -73,14 +90,62 @@ d/Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-dummy.m
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-dummy.m227"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5d18a1000e2fb841^86a9bd000e2fb841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-dummy.m0000000000000000^3369"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods/Headers -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.dia -c /Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-dummy.m -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o36"0D437361-F01E-44E3-9533-7C5938934910-
 bCB3A1F56-1F70-4F90-9E38-73B3F1A00F6F
 
+CCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405785830.066756
+e405785830.174910
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o
+x/Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-dummy.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-dummy.m231"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler5b2811e6cc2fb841^7ec72ce6cc2fb841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-dummy.m0000000000000000^3380"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/include -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods/Headers -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/x86_64 -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.dia -c /Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-dummy.m -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o36"F67A45D1-85D2-4BB6-A065-8CEFB0503D70-
+b1BF57346-CC4F-4D33-AB07-BAF02AE93F03
+
+CCreateUniversalBinary /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a normal i386\ x86_64
+s405785830.200726
+e405785830.233973
+r1
+xCreateUniversalBinary
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a
+xnormal
+xi386 x86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Create universal binary /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a129"CreateUniversalBinary /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a normal i386\ x86_64267033e6cc2fb841^a3e63be6cc2fb841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a0000000000000000^761"CreateUniversalBinary /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a normal i386\ x86_64    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    libtool -static /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/libPods.a /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/libPods.a -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a36"4AE3B854-0E8D-400C-BCD5-C11A4D831009-
+b1BF57346-CC4F-4D33-AB07-BAF02AE93F03
+
+CLibtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/libPods.a normal i386
+s405785830.175374
+e405785830.197760
+r1
+xLibtool
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/libPods.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Libtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/libPods.a normal i386154"Libtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/libPods.a normal i38656f32ce6cc2fb841^73a132e6cc2fb841^---0#0#1#--1109"Libtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/libPods.a normal i386    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator -filelist /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList -framework Foundation -lPods-AFNetworking -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/libPods.a36"73C27F02-862A-4DEF-B313-C5A1C63AC98A-
+b1BF57346-CC4F-4D33-AB07-BAF02AE93F03
+
+CLibtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/libPods.a normal x86_64
+s405785830.175537
+e405785830.200348
+r1
+xLibtool
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/libPods.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Libtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/libPods.a normal x86_64158"Libtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/libPods.a normal x86_6461fc2ce6cc2fb841^904c33e6cc2fb841^---0#0#1#--1119"Libtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/libPods.a normal x86_64    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator -filelist /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods.LinkFileList -framework Foundation -lPods-AFNetworking -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/libPods.a36"6AF8FFC6-B210-4963-9CFE-A3E680A49D49-
+b1BF57346-CC4F-4D33-AB07-BAF02AE93F03
+
 CLibtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a normal i386
-s405736960.741352
-e405736960.755119
+s405817383.140999
+e405817383.153433
 r1
 xLibtool
 x/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a
 xnormal
 xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Libtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a normal i386107"Libtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a normal i386a1d9bd000e2fb841^d751c1000e2fb841^---0#0#1#--1015"Libtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a normal i386    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator -filelist /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList -framework Foundation -lPods-AFNetworking -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a36"A50827C8-616F-4245-B968-8C38B8C71F55-
-bCB3A1F56-1F70-4F90-9E38-73B3F1A00F6F
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Libtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a normal i386107"Libtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a normal i3864a2524274830b841^914827274830b841^---0#0#1#--1015"Libtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a normal i386    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator -filelist /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList -framework Foundation -lPods-AFNetworking -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphonesimulator/libPods.a36"94F07591-6CFE-495B-BD13-CB89730141DF-
+bB46C5175-1C49-4327-8747-FE908C664B30
 

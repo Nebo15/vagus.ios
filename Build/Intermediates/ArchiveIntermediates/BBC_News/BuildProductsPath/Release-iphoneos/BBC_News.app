@@ -1,0 +1,1 @@
+/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/ArchiveIntermediates/BBC_News/InstallationBuildProductsLocation/Applications/BBC_News.app

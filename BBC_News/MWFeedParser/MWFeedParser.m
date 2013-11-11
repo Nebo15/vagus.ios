@@ -1,3 +1,4 @@
+
 //
 //  MWFeedParser.m
 //  MWFeedParser
@@ -31,7 +32,6 @@
 #import "MWFeedParser_Private.h"
 #import "NSString+HTML.h"
 #import "NSDate+InternetDateTime.h"
-#import "NetworkClient.h"
 
 // NSXMLParser Logging
 #if 0 // Set to 1 to enable XML parsing logs
@@ -179,10 +179,6 @@
 							  andDescription:[NSString stringWithFormat:@"Asynchronous connection failed to URL: %@", url]];
 			success = NO;
 		}
-        [[NetworkClient sharedClient] getFeedDataWithTag:@"cemaat" completion:^(BOOL success, NSData * data) {
-            
-        }];
-		
 	} else {
         
 		// Sync

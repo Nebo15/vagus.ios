@@ -172,7 +172,6 @@
 		67B1647C17F3501900D34AE8 /* world_service@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67B1647017F3501800D34AE8 /* world_service@2x.jpg */; };
 		67B1647F17F358A600D34AE8 /* newshour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67B1647D17F3589F00D34AE8 /* newshour.jpg */; };
 		67B1648017F358A600D34AE8 /* newshour@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67B1647E17F358A200D34AE8 /* newshour@2x.jpg */; };
-		81AE5CCE182DBA690023B03E /* NetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE5CCD182DBA690023B03E /* NetworkClient.m */; };
 		81AE5CDB182F0CCA0023B03E /* vagus_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CCF182F0CCA0023B03E /* vagus_29.png */; };
 		81AE5CDC182F0CCA0023B03E /* vagus_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CD0182F0CCA0023B03E /* vagus_57.png */; };
 		81AE5CDD182F0CCA0023B03E /* vagus_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CD1182F0CCA0023B03E /* vagus_58.png */; };
@@ -187,7 +186,11 @@
 		81AE5CE6182F0CCA0023B03E /* vagus_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CDA182F0CCA0023B03E /* vagus_1024.png */; };
 		81AE5CE9182F0DC60023B03E /* vagus_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CE7182F0DC60023B03E /* vagus_40.png */; };
 		81AE5CEA182F0DC60023B03E /* vagus_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CE8182F0DC60023B03E /* vagus_50.png */; };
+		81C264121830410500AD0FCA /* youtube-resize.js in Sources */ = {isa = PBXBuildFile; fileRef = 81C264111830410500AD0FCA /* youtube-resize.js */; };
 		81DE8359182F0E81004C79CB /* NewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AD54AF17E5F0FB00D8BF6D /* NewsListViewController.m */; };
+		81DE8360182FC74E004C79CB /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DE835F182FC74E004C79CB /* libTestFlight.a */; };
+		81DE8362182FC8CF004C79CB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DE8361182FC8CF004C79CB /* libz.dylib */; };
+		81DE8364183003DC004C79CB /* atomVagus.txt in Resources */ = {isa = PBXBuildFile; fileRef = 81DE8363183003DC004C79CB /* atomVagus.txt */; };
 		8659D51317EDC2330029135D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D51217EDC2330029135D /* Default@2x.png */; };
 		8659D51517EDC24C0029135D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D51417EDC24C0029135D /* Default.png */; };
 		8659D51817EDC2620029135D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D51717EDC2620029135D /* Default-568h@2x.png */; };
@@ -195,10 +198,6 @@
 		8659D51C17EDC2AF0029135D /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D51B17EDC2AF0029135D /* Default-Portrait@2x~ipad.png */; };
 		8659D51E17EDC2B50029135D /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D51D17EDC2B50029135D /* Default-Landscape~ipad.png */; };
 		8659D52017EDC2B90029135D /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D51F17EDC2B90029135D /* Default-Landscape@2x~ipad.png */; };
-		8659D52A17EDC3870029135D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D52917EDC3870029135D /* Icon.png */; };
-		8659D52C17EDC38C0029135D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D52B17EDC38C0029135D /* Icon@2x.png */; };
-		8659D52E17EDC3910029135D /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D52D17EDC3910029135D /* Icon-iPad.png */; };
-		8659D53017EDC3950029135D /* Icon-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D52F17EDC3950029135D /* Icon-iPad@2x.png */; };
 		8659D54B17EDD1060029135D /* editBtnNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D54717EDD1060029135D /* editBtnNew.png */; };
 		8659D54C17EDD1060029135D /* editBtnNew@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D54817EDD1060029135D /* editBtnNew@2x.png */; };
 		8659D54D17EDD1060029135D /* EditBtnNewPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 8659D54917EDD1060029135D /* EditBtnNewPress.png */; };
@@ -504,8 +503,6 @@
 		67B1647D17F3589F00D34AE8 /* newshour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newshour.jpg; sourceTree = "<group>"; };
 		67B1647E17F358A200D34AE8 /* newshour@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "newshour@2x.jpg"; sourceTree = "<group>"; };
 		72C01E3F0B0F4C6C82975180 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AE5CCC182DBA690023B03E /* NetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
-		81AE5CCD182DBA690023B03E /* NetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClient.m; sourceTree = "<group>"; };
 		81AE5CCF182F0CCA0023B03E /* vagus_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_29.png; sourceTree = "<group>"; };
 		81AE5CD0182F0CCA0023B03E /* vagus_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_57.png; sourceTree = "<group>"; };
 		81AE5CD1182F0CCA0023B03E /* vagus_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_58.png; sourceTree = "<group>"; };
@@ -520,6 +517,14 @@
 		81AE5CDA182F0CCA0023B03E /* vagus_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_1024.png; sourceTree = "<group>"; };
 		81AE5CE7182F0DC60023B03E /* vagus_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_40.png; sourceTree = "<group>"; };
 		81AE5CE8182F0DC60023B03E /* vagus_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_50.png; sourceTree = "<group>"; };
+		81C264111830410500AD0FCA /* youtube-resize.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "youtube-resize.js"; sourceTree = "<group>"; };
+		81DE835A182FC6E5004C79CB /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		81DE835B182FC6E5004C79CB /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		81DE835C182FC6E5004C79CB /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		81DE835D182FC6E5004C79CB /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		81DE835F182FC74E004C79CB /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestFlight.a; path = ../../Downloads/TestFlightSDK2.0.2/libTestFlight.a; sourceTree = "<group>"; };
+		81DE8361182FC8CF004C79CB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		81DE8363183003DC004C79CB /* atomVagus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = atomVagus.txt; sourceTree = "<group>"; };
 		8659D51217EDC2330029135D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../Default@2x.png"; sourceTree = "<group>"; };
 		8659D51417EDC24C0029135D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Default.png; sourceTree = "<group>"; };
 		8659D51717EDC2620029135D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -527,10 +532,6 @@
 		8659D51B17EDC2AF0029135D /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~ipad.png"; path = "../../Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		8659D51D17EDC2B50029135D /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		8659D51F17EDC2B90029135D /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad.png"; path = "../../Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
-		8659D52917EDC3870029135D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../Icon.png; sourceTree = "<group>"; };
-		8659D52B17EDC38C0029135D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../Icon@2x.png"; sourceTree = "<group>"; };
-		8659D52D17EDC3910029135D /* Icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-iPad.png"; path = "../../Icon-iPad.png"; sourceTree = "<group>"; };
-		8659D52F17EDC3950029135D /* Icon-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-iPad@2x.png"; path = "../../Icon-iPad@2x.png"; sourceTree = "<group>"; };
 		8659D54717EDD1060029135D /* editBtnNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editBtnNew.png; sourceTree = "<group>"; };
 		8659D54817EDD1060029135D /* editBtnNew@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "editBtnNew@2x.png"; sourceTree = "<group>"; };
 		8659D54917EDD1060029135D /* EditBtnNewPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EditBtnNewPress.png; sourceTree = "<group>"; };
@@ -608,6 +609,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81DE8362182FC8CF004C79CB /* libz.dylib in Frameworks */,
+				81DE8360182FC74E004C79CB /* libTestFlight.a in Frameworks */,
 				674A3D3A17EC746600F2C1F4 /* MessageUI.framework in Frameworks */,
 				674A3D3217EC3C6A00F2C1F4 /* CoreText.framework in Frameworks */,
 				674A3D2517EB9C2A00F2C1F4 /* Reveal.framework in Frameworks */,
@@ -924,6 +927,7 @@
 				67B1647D17F3589F00D34AE8 /* newshour.jpg */,
 				67B1647E17F358A200D34AE8 /* newshour@2x.jpg */,
 				6795C24A17EF6BA300F62C3B /* news-article.js */,
+				81C264111830410500AD0FCA /* youtube-resize.js */,
 				6795C24B17EF6BA300F62C3B /* template.html */,
 			);
 			path = WebResource;
@@ -1037,10 +1041,6 @@
 				81AE5CD8182F0CCA0023B03E /* vagus_144.png */,
 				81AE5CD9182F0CCA0023B03E /* vagus_152.png */,
 				81AE5CDA182F0CCA0023B03E /* vagus_1024.png */,
-				8659D52F17EDC3950029135D /* Icon-iPad@2x.png */,
-				8659D52D17EDC3910029135D /* Icon-iPad.png */,
-				8659D52B17EDC38C0029135D /* Icon@2x.png */,
-				8659D52917EDC3870029135D /* Icon.png */,
 				8659D51F17EDC2B90029135D /* Default-Landscape@2x~ipad.png */,
 				8659D51D17EDC2B50029135D /* Default-Landscape~ipad.png */,
 				8659D51B17EDC2AF0029135D /* Default-Portrait@2x~ipad.png */,
@@ -1073,6 +1073,8 @@
 		67AD543517E5ED9C00D8BF6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				81DE8361182FC8CF004C79CB /* libz.dylib */,
+				81DE835F182FC74E004C79CB /* libTestFlight.a */,
 				674A3D3917EC746300F2C1F4 /* MessageUI.framework */,
 				674A3D3117EC3C6900F2C1F4 /* CoreText.framework */,
 				674A3D2417EB9C2A00F2C1F4 /* Reveal.framework */,
@@ -1113,6 +1115,7 @@
 		67AD543D17E5ED9C00D8BF6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				81DE8363183003DC004C79CB /* atomVagus.txt */,
 				67AD543E17E5ED9C00D8BF6D /* BBC_News-Info.plist */,
 				67AD543F17E5ED9C00D8BF6D /* InfoPlist.strings */,
 				67AD544217E5ED9C00D8BF6D /* main.m */,
@@ -1188,6 +1191,10 @@
 		67AD548C17E5EE3500D8BF6D /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				81DE835A182FC6E5004C79CB /* libTestFlight.a */,
+				81DE835B182FC6E5004C79CB /* TestFlight.h */,
+				81DE835C182FC6E5004C79CB /* TestFlight+AsyncLogging.h */,
+				81DE835D182FC6E5004C79CB /* TestFlight+ManualSessions.h */,
 				67AD546317E5EE2A00D8BF6D /* Network */,
 				6727E9A217E7714600FECCB2 /* MWFeedParser */,
 				67AD548D17E5EE3500D8BF6D /* MD5 */,
@@ -1314,8 +1321,6 @@
 		81AE5CCB182DBA3D0023B03E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				81AE5CCC182DBA690023B03E /* NetworkClient.h */,
-				81AE5CCD182DBA690023B03E /* NetworkClient.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -1428,6 +1433,7 @@
 				6727E9C617E7841A00FECCB2 /* SimpleWebViewController.xib in Resources */,
 				67A1D7D617E84C5600D10B71 /* selected_page_img.png in Resources */,
 				67A1D7D717E84C5600D10B71 /* unselected_page_img.png in Resources */,
+				81DE8364183003DC004C79CB /* atomVagus.txt in Resources */,
 				67A1D7DD17E84C8200D10B71 /* PageViewController.xib in Resources */,
 				67A1D7E917E8A30C00D10B71 /* FooterView_iPad.xib in Resources */,
 				31B17654182BE274006B48DF /* vagus_logo@2x.png in Resources */,
@@ -1478,10 +1484,6 @@
 				8659D51C17EDC2AF0029135D /* Default-Portrait@2x~ipad.png in Resources */,
 				8659D51E17EDC2B50029135D /* Default-Landscape~ipad.png in Resources */,
 				8659D52017EDC2B90029135D /* Default-Landscape@2x~ipad.png in Resources */,
-				8659D52A17EDC3870029135D /* Icon.png in Resources */,
-				8659D52C17EDC38C0029135D /* Icon@2x.png in Resources */,
-				8659D52E17EDC3910029135D /* Icon-iPad.png in Resources */,
-				8659D53017EDC3950029135D /* Icon-iPad@2x.png in Resources */,
 				8659D54B17EDD1060029135D /* editBtnNew.png in Resources */,
 				8659D54C17EDD1060029135D /* editBtnNew@2x.png in Resources */,
 				8659D54D17EDD1060029135D /* EditBtnNewPress.png in Resources */,
@@ -1679,7 +1681,7 @@
 				6727E9BB17E7714600FECCB2 /* MWFeedParser.m in Sources */,
 				6727E9C517E7841A00FECCB2 /* SimpleWebViewController.m in Sources */,
 				67A1D7DC17E84C8200D10B71 /* PageViewController.m in Sources */,
-				81AE5CCE182DBA690023B03E /* NetworkClient.m in Sources */,
+				81C264121830410500AD0FCA /* youtube-resize.js in Sources */,
 				67A1D7E117E84C9900D10B71 /* DPPageControl.m in Sources */,
 				52832F5E17E8A7A6004A37E1 /* DragViewController.m in Sources */,
 				67A1D7E717E8A2ED00D10B71 /* FooterView.m in Sources */,
@@ -1782,8 +1784,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2C91ED53946845CFB1CAD013 /* Pods.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Vitalii Todorovych";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vitalii Todorovych (6EM64P252H)";
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yevhen Bakumenko (L4AHK85NBL)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/BBC_News\"",
@@ -1792,10 +1794,14 @@
 				GCC_PREFIX_HEADER = "BBC_News/BBC_News-Prefix.pch";
 				INFOPLIST_FILE = "BBC_News/BBC_News-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data,
+					/Users/evgenbakumenko/Downloads/TestFlightSDK2.0.2,
+				);
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6917F067-7597-40EB-B39C-90E3A77AFAB6";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "332A5BC2-D1BC-47F1-981D-9D107500F7BD";
+				PROVISIONING_PROFILE = "10B6508A-2460-4E2E-92FB-0BAFA16B6502";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1805,8 +1811,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2C91ED53946845CFB1CAD013 /* Pods.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Vitalii Todorovych";
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yevhen Bakumenko (L4AHK85NBL)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/BBC_News\"",
@@ -1815,10 +1821,15 @@
 				GCC_PREFIX_HEADER = "BBC_News/BBC_News-Prefix.pch";
 				INFOPLIST_FILE = "BBC_News/BBC_News-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/evgenbakumenko/Desktop/vagus_news/BBC_News/Data,
+					/Users/evgenbakumenko/Downloads/TestFlightSDK2.0.2,
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AF0C36E3-DC19-4248-A6B7-C74CC8202CA2";
+				PROVISIONING_PROFILE = "10B6508A-2460-4E2E-92FB-0BAFA16B6502";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
