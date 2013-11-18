@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <deployment defaultVersion="1552" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FooterView"/>
@@ -16,7 +16,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.76862745098039209" green="0.77254901960784317" blue="0.77254901960784317" alpha="1" colorSpace="deviceRGB"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                    <state key="normal" title="  Send Photo" image="icon-sendphoto.png">
+                    <state key="normal" title="  Foto yolla" image="icon-sendphoto.png">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -32,7 +32,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.76862745099999996" green="0.7725490196" blue="0.7725490196" alpha="1" colorSpace="deviceRGB"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                    <state key="normal" title="  Send Story" image="icon-sendstory.png">
+                    <state key="normal" title="  Hikaye yolla" image="icon-sendstory.png">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -44,11 +44,11 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7">
-                    <rect key="frame" x="3" y="58" width="102" height="40"/>
+                    <rect key="frame" x="3" y="58" width="71" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.76862745099999996" green="0.7725490196" blue="0.7725490196" alpha="1" colorSpace="deviceRGB"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                    <state key="normal" title="Help">
+                    <state key="normal" title="Yardım">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -60,11 +60,11 @@
                     </connections>
                 </button>
                 <button opaque="NO" alpha="0.69999999999999996" tag="1" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6">
-                    <rect key="frame" x="109" y="58" width="102" height="40"/>
+                    <rect key="frame" x="78" y="58" width="133" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.76862745099999996" green="0.7725490196" blue="0.7725490196" alpha="1" colorSpace="deviceRGB"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                    <state key="normal" title="Term of use">
+                    <state key="normal" title="Kullanım koşulları">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -80,7 +80,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.76862745099999996" green="0.7725490196" blue="0.7725490196" alpha="1" colorSpace="deviceRGB"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                    <state key="normal" title="Privacy">
+                    <state key="normal" title="Gizlilik">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>

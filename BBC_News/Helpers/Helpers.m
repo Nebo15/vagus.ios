@@ -13,7 +13,7 @@
 
 @implementation Helpers
 
-+ (UIButton *)createRedButtonWithTitle:(NSString *)titleText delegate:(id)delegate selector:(SEL)selector
++ (UIButton *)createGrayButtonWithTitle:(NSString *)titleText delegate:(id)delegate selector:(SEL)selector
 {
     UIButton *redButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [redButton setTitle:titleText forState:UIControlStateNormal];

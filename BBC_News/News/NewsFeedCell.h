@@ -20,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *titleLbl;
 @property (weak, nonatomic) IBOutlet UIImageView *arrow;
 @property (weak, nonatomic) IBOutlet UIImageView *separateImageView;
++ (UINib *)nib;
 
 
 - (void)createUIWithFeedData:(FeedData*)feedData;

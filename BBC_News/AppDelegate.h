@@ -22,8 +22,5 @@ UIApplicationDelegate>
 + (AppDelegate *) sharedDelegate;
 + (BOOL)isRoaming;
 + (BOOL)isNetwork;
-- (BOOL)isRadioPlaying;
-- (void)playRadio;
-- (void)stopRadio;
 
 @end

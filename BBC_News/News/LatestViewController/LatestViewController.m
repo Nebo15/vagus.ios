@@ -52,7 +52,7 @@
     for(int i = curIndex; i < [items count] - 1; i++)
     {
         headline = [items[i] title];
-        prompt = [@"Latest" uppercaseString];
+        prompt = [@"Son Haberler" uppercaseString];
         currentIdentifier = [items[i] identifier];
         if ([headline length] > 0) {
             headline = [NSString stringWithFormat:@"%@: %@",prompt,headline];

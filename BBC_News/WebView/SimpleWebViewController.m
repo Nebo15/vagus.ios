@@ -120,8 +120,6 @@ documentsDirectory = [paths objectAtIndex:0];
     NSString *path = [[NSBundle mainBundle] bundlePath];
     NSURL *baseURL = [NSURL fileURLWithPath:path];
     
-    NSString *lastUpdateStr = (item.updated && ![item.identifier hasPrefix:@"urn:news-bbc-co-uk:ws"])?[NSString stringWithFormat:@"Last updated %@",item.updated]:@"";
-    
     NSString *html = [NSString stringWithFormat:@"<!DOCTYPE html>\
                       <html class=\"newsArticle\">\
                       <head>\
@@ -138,7 +136,7 @@ documentsDirectory = [paths objectAtIndex:0];
                       <h1>%@</h1>\
                       <p class=\"updated\">%@</p>\
                       %@\
-                      <footer>%@</footer>\
+                      <footer></footer>\
                       </div>\
                       <script type=\"text/javascript\" src=\"news-article.js\"></script>\
                       <script type=\"text/javascript\">\
@@ -148,7 +146,6 @@ documentsDirectory = [paths objectAtIndex:0];
                       </html>",((IS_IPAD)?@"iPad":@"iPhone"),
                       ([self.title hasPrefix:@"Chinese"])?@"<link rel=\"stylesheet\" type=\"text/css\" href=\"ArticleChinese.css\">":@"",
                       (item.title)?item.title:@"",
-                      lastUpdateStr,
                       [self prepareHtmlTextForItem:item],
                       [NSString stringWithFormat:@"VAGUS © %@",[self getCurrentYear]]];
     [self.webView loadHTMLString:html baseURL:baseURL];

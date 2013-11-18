@@ -20,7 +20,7 @@
 
     self.viewController = [[NewsListViewController alloc] initWithNibName:@"NewsListViewController" bundle:nil];
     self.rootNavigationController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
-    [self.rootNavigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top-bar-color"] forBarMetrics:UIBarMetricsDefault];
+    [self.rootNavigationController.navigationBar setBackgroundColor:UIColor.whiteColor];
     [TestFlight takeOff:@"a6341102-faf4-4dfc-8fc2-289e20d7e0fb"];
     
     self.window.rootViewController = self.rootNavigationController;

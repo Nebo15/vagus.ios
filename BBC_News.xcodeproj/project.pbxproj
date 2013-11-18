@@ -172,6 +172,7 @@
 		67B1647C17F3501900D34AE8 /* world_service@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67B1647017F3501800D34AE8 /* world_service@2x.jpg */; };
 		67B1647F17F358A600D34AE8 /* newshour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67B1647D17F3589F00D34AE8 /* newshour.jpg */; };
 		67B1648017F358A600D34AE8 /* newshour@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67B1647E17F358A200D34AE8 /* newshour@2x.jpg */; };
+		81A456421838786F001ED963 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A456411838786F001ED963 /* Images.xcassets */; };
 		81AE5CDB182F0CCA0023B03E /* vagus_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CCF182F0CCA0023B03E /* vagus_29.png */; };
 		81AE5CDC182F0CCA0023B03E /* vagus_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CD0182F0CCA0023B03E /* vagus_57.png */; };
 		81AE5CDD182F0CCA0023B03E /* vagus_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE5CD1182F0CCA0023B03E /* vagus_58.png */; };
@@ -503,6 +504,7 @@
 		67B1647D17F3589F00D34AE8 /* newshour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newshour.jpg; sourceTree = "<group>"; };
 		67B1647E17F358A200D34AE8 /* newshour@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "newshour@2x.jpg"; sourceTree = "<group>"; };
 		72C01E3F0B0F4C6C82975180 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A456411838786F001ED963 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		81AE5CCF182F0CCA0023B03E /* vagus_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_29.png; sourceTree = "<group>"; };
 		81AE5CD0182F0CCA0023B03E /* vagus_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_57.png; sourceTree = "<group>"; };
 		81AE5CD1182F0CCA0023B03E /* vagus_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vagus_58.png; sourceTree = "<group>"; };
@@ -1107,6 +1109,7 @@
 				67AD548C17E5EE3500D8BF6D /* Data */,
 				67AD54B917E61CB400D8BF6D /* UI */,
 				528568F117E707D50064986B /* Images */,
+				81A456411838786F001ED963 /* Images.xcassets */,
 				67AD543D17E5ED9C00D8BF6D /* Supporting Files */,
 			);
 			path = BBC_News;
@@ -1447,6 +1450,7 @@
 				86D180A817E9769700AEC9CA /* liveRadioRed1@2x~iphone.png in Resources */,
 				86D180A917E9769700AEC9CA /* liveRadioRed2@2x~iphone.png in Resources */,
 				86D180AA17E9769700AEC9CA /* NavTitle.png in Resources */,
+				81A456421838786F001ED963 /* Images.xcassets in Resources */,
 				86D180AB17E9769700AEC9CA /* NavTitle@2x.png in Resources */,
 				86D180BC17E97E2800AEC9CA /* sectionsBtnNorm.png in Resources */,
 				86D180BD17E97E2800AEC9CA /* sectionsBtnNorm@2x~iphone.png in Resources */,
@@ -1785,6 +1789,7 @@
 			baseConfigurationReference = 2C91ED53946845CFB1CAD013 /* Pods.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Yevhen Bakumenko (L4AHK85NBL)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1812,6 +1817,7 @@
 			baseConfigurationReference = 2C91ED53946845CFB1CAD013 /* Pods.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Yevhen Bakumenko (L4AHK85NBL)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

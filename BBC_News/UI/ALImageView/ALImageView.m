@@ -16,7 +16,7 @@
 {
     if(!activityView)
     {
-        activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+        activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
         CGSize activityViewSize = CGSizeMake(20, 20);
         activityView.frame = CGRectMake(0, 0, activityViewSize.width, activityViewSize.height);
         activityView.center = CGPointMake(self.width / 2, self.height / 2);

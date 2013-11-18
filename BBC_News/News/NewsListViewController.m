@@ -177,7 +177,7 @@
     [cell clearView];
 }
 
-- (void) configureCell:(NewsFeedCell*)theCell forRowAtIndexPath: (NSIndexPath*)indexPath {
+- (void)configureCell:(NewsFeedCell*)theCell forRowAtIndexPath: (NSIndexPath*)indexPath {
     CategoryItem *catItem = items[indexPath.section];
     [theCell setItem:catItem];
     [theCell.titleLbl setText:[catItem.title uppercaseString]];
@@ -450,9 +450,9 @@
         if(IS_IPAD && UIInterfaceOrientationIsPortrait(SCREEN_ORIENTATION))
             [pageViewController scrollDisable];
     }
-    [self.table setBackgroundColor:[UIColor clearColor]];
-    [self.view setBackgroundColor:RGBCOLOR(110, 110, 110)];
-    [self.table setSeparatorColor:[UIColor clearColor]];
+    [self.table setBackgroundColor:UIColor.clearColor];
+    [self.view setBackgroundColor:UIColor.whiteColor];
+    [self.table setSeparatorColor:UIColor.clearColor];
     [self createObservers];
     [self addDragView];
     [self createRefreshView];
@@ -513,30 +513,22 @@
 {
     if(IS_IPAD)
     {
-        UIButton *sectionsButton = [Helpers createButtonWithNormalImg:[UIImage imageNamed:@"sectionsBtnNorm"] highlightImg:[UIImage imageNamed:@"sectionsBtnHighlight"] delegate:self selector:@selector(onSections:)];
+        UIButton *sectionsButton = [Helpers createGrayButtonWithTitle:@"Konular" delegate:self selector:@selector(onSections:)];
         
         UIButton *editButton;
         
-        if (self.table.isEditing)
+        if (!self.table.isEditing)
         {
-            editButton = [Helpers createButtonWithNormalImg:[UIImage imageNamed:@"DoneBtn"] highlightImg:[UIImage imageNamed:@"DoneBtnNewPress"] delegate:self selector:@selector(onDone:)];
+            editButton = [Helpers createGrayButtonWithTitle:@"Düzenle" delegate:self selector:@selector(onEdit:)];
         }
         else
         {
-            editButton = [Helpers createButtonWithNormalImg:[UIImage imageNamed:@"editBtnNew"] highlightImg:[UIImage imageNamed:@"editBtnNewPress"] delegate:self selector:@selector(onEdit:)];
+            editButton = [Helpers createGrayButtonWithTitle:@"Hazır" delegate:self selector:@selector(onDone:)];
         }
-        
-        UIButton *radioButton = [Helpers createButtonWithNormalImg:[UIImage imageNamed:@"liveRadio"] highlightImg:[UIImage imageNamed:@"liveRadio"] delegate:self selector:@selector(onLiveRadioBtn:)];
-        if ([[AppDelegate sharedDelegate] isRadioPlaying]) {
-            [radioButton setSelected:YES];
-        }else{
-            [radioButton setSelected:NO];
-        }
-      //  [self aplyAnimationForRadiopButton:radioButton];
-        
+    
         // Right navigation items
         
-        self.zoomTextButton = [Helpers createButtonWithNormalImg:[UIImage imageNamed:@"zoomTextBtnNorm"] highlightImg:[UIImage imageNamed:@"zoomTextBtnHighlight"] delegate:pageViewController selector:@selector(onZoomTextBtn:)];
+        self.zoomTextButton = [Helpers createGrayButtonWithTitle:@"Aa" delegate:pageViewController selector:@selector(onZoomTextBtn:)];
         
         UIButton *shareButton = [Helpers createButtonWithNormalImg:[UIImage imageNamed:@"shareBtnNorm"] highlightImg:[UIImage imageNamed:@"shareBtnHighlight"] delegate:pageViewController selector:@selector(onShareBtn:)];
         
@@ -559,52 +551,6 @@
         UIBarButtonItem *leftBtnItem = [[UIBarButtonItem alloc] initWithCustomView:leftView];
         [self.navigationItem setLeftBarButtonItem:leftBtnItem];
     }
-    else
-    {
-        // Left navigation items
-        
-        UIButton *radioButton;
-        
-        if(UIInterfaceOrientationIsPortrait(SCREEN_ORIENTATION))
-        {
-            radioButton = [Helpers createButtonWithNormalImg:[UIImage imageNamed:@"liveRadio"] highlightImg:[UIImage imageNamed:@"liveRadioRed0"] delegate:self selector:@selector(onLiveRadioBtn:)];
-        }
-        else
-        {
-            radioButton = [Helpers createButtonWithNormalImg:[UIImage imageNamed:@"liveRadioLandscape"] highlightImg:[UIImage imageNamed:@"liveRadio0Landscape"] delegate:self selector:@selector(onLiveRadioBtn:)];
-        }
-        
-        // Right navigation items
-        
-        UIButton *editButton;
-        
-        if (self.table.isEditing)
-        {
-            if(UIInterfaceOrientationIsPortrait(SCREEN_ORIENTATION))
-            {
-                editButton = [Helpers createButtonWithNormalImg:[UIImage imageNamed:@"DoneBtn"] highlightImg:[UIImage imageNamed:@"DoneBtnNewPress"] delegate:self selector:@selector(onDone:)];
-            }
-            else
-            {
-                editButton = [Helpers createButtonWithNormalImg:[UIImage imageNamed:@"DoneBtnLandscape"] highlightImg:[UIImage imageNamed:@"DoneBtnLandscapePress"] delegate:self selector:@selector(onDone:)];
-            }
-        }
-        else
-        {
-            if(UIInterfaceOrientationIsPortrait(SCREEN_ORIENTATION))
-            {
-                editButton = [Helpers createButtonWithNormalImg:[UIImage imageNamed:@"editBtnNew"] highlightImg:[UIImage imageNamed:@"EditBtnNewPress"] delegate:self selector:@selector(onEdit:)];
-            }
-            else
-            {
-                editButton = [Helpers createButtonWithNormalImg:[UIImage imageNamed:@"EditBtnLandscape"] highlightImg:[UIImage imageNamed:@"EditBtnLandscapePress"] delegate:self selector:@selector(onEdit:)];
-            }
-        }
-
-        UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] initWithCustomView:editButton];
-        [self.navigationItem setRightBarButtonItem:barButtonItem];
-        
-    }
 }
 
 #pragma mark - Notifications
@@ -626,63 +572,11 @@
 #pragma mark - Actions
 
 - (void)aplyAnimationForRadiopButton:(UIButton *)btn{
-        if(btn.selected)
-        {
-            if(UIInterfaceOrientationIsPortrait(SCREEN_ORIENTATION))
-            {
-                [btn setImage:[UIImage imageNamed:@"liveRadioRed0"] forState:UIControlStateNormal];
-                btn.imageView.animationImages = @[[UIImage imageNamed:@"liveRadioRed0.png"], [UIImage imageNamed:@"liveRadioRed1.png"], [UIImage imageNamed:@"liveRadioRed2.png"]];
-            }
-            else
-            {
-                if(IS_IPAD)
-                {
-                    [btn setImage:[UIImage imageNamed:@"liveRadioRed0"] forState:UIControlStateNormal];
-                    btn.imageView.animationImages = @[[UIImage imageNamed:@"liveRadioRed0.png"], [UIImage imageNamed:@"liveRadioRed1.png"], [UIImage imageNamed:@"liveRadioRed2.png"]];
-                    
-                }
-                else
-                {
-                    [btn setImage:[UIImage imageNamed:@"liveRadio0Landscape"] forState:UIControlStateNormal];
-                    btn.imageView.animationImages = @[[UIImage imageNamed:@"liveRadio0Landscape.png"], [UIImage imageNamed:@"liveRadio1Landscape.png"], [UIImage imageNamed:@"liveRadio2Landscape.png"]];
-                    
-                }
-            }
-            
-            btn.imageView.animationDuration = 1.5;
-            [btn.imageView startAnimating];
-            [[AppDelegate sharedDelegate] playRadio];
-        }
-        else
-        {
-            if(UIInterfaceOrientationIsPortrait(SCREEN_ORIENTATION))
-            {
-                [btn setImage:[UIImage imageNamed:@"liveRadio"] forState:UIControlStateNormal];
-            }
-            else
-            {
-                [btn setImage:[UIImage imageNamed:@"liveRadioLandscape"] forState:UIControlStateNormal];
-            }
-
-            [btn.imageView stopAnimating];
-            [[AppDelegate sharedDelegate] stopRadio];
-        }
 }
 
 - (void)onLiveRadioBtn:(id)sender
 {
-    UIButton *btn = (UIButton *)sender;
-    [btn setSelected:!btn.selected];
-    
-    if(btn.selected)
-    {
-        [[AppDelegate sharedDelegate] playRadio];
-    }
-    else
-    {
-        [[AppDelegate sharedDelegate] stopRadio];
-    }
-    [self aplyAnimationForRadiopButton:btn];
+
 }
 
 - (void)onEdit:(id)sender

@@ -15,6 +15,8 @@
 
 @interface NewsItemView()
 
+@property (strong, nonatomic) IBOutlet UIView *selectionView;
+
 @end
 
 @implementation NewsItemView
@@ -31,8 +33,6 @@
     if (self) {
         self = [[[NSBundle mainBundle] loadNibNamed:@"NewsItemView" owner:self options:nil] objectAtIndex:0];
         self.feedItem = feed;
-//        [self setFrame:CGRectMake(self.frame.origin.x, self.frame.origin.y, rootView.frame.size.width, rootView.frame.size.height)];
-//        [self addSubview:rootView];
     }
     return self;
 }
@@ -73,10 +73,10 @@
     int index = [[dictData objectForKey:@"selectedIndex"] integerValue];
     NSString *identifier = ((MWFeedItem*)feedData.items[index]).identifier;
     
-    [self setBackgroundColor:[UIColor clearColor]];
+    [_selectionView setBackgroundColor:[UIColor clearColor]];
 //    if (categoryItem == self.delegate.feedData.categoryItem) {
         if ([self.feedItem.identifier isEqualToString:identifier]) {
-            [self setBackgroundColor:DEFAULT_COLOR];
+            [_selectionView setBackgroundColor:DEFAULT_COLOR];
             [self.delegate scrollToItemWithIndex:index];
         }
 //    }

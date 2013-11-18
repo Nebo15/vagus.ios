@@ -84,11 +84,10 @@
 
 - (void)updateNavBar{
     if(!IS_IPAD){
-        UIButton *sectionsButton = [Helpers createButtonWithNormalImg:[UIImage imageNamed:@"sectionsBtnNorm"] highlightImg:[UIImage imageNamed:@"sectionsBtnHighlight"] delegate:self selector:@selector(onSections:)];
-        UIBarButtonItem *sectionBtnItem = [[UIBarButtonItem alloc] initWithCustomView:sectionsButton];
-        [self.navigationItem setLeftBarButtonItem:sectionBtnItem];
+        UIButton *sectionsButton = [Helpers createGrayButtonWithTitle:@"Konular" delegate:self selector:@selector(onSections:)];
+        [self.navigationItem setLeftBarButtonItem:[[UIBarButtonItem alloc] initWithCustomView:sectionsButton]];
         
-        zoomTextButton = [Helpers createButtonWithNormalImg:[UIImage imageNamed:@"zoomTextBtnNorm"] highlightImg:[UIImage imageNamed:@"zoomTextBtnHighlight"] delegate:self selector:@selector(onZoomTextBtn:)];
+        zoomTextButton = [Helpers createGrayButtonWithTitle:@"Aa" delegate:self selector:@selector(onZoomTextBtn:)];
         _zoomBtnPressed = NO;
         UIButton *shareButton = [Helpers createButtonWithNormalImg:[UIImage imageNamed:@"shareBtnNorm"] highlightImg:[UIImage imageNamed:@"shareBtnHighlight"] delegate:self selector:@selector(onShareBtn:)];
         
@@ -283,14 +282,8 @@
 
 - (void)onZoomTextBtn:(id)sender
 {
-    UIButton *btn = (UIButton *)sender;
     _zoomBtnPressed = !_zoomBtnPressed;
 
-    if(_zoomBtnPressed)
-        [btn setBackgroundImage:[UIImage imageNamed:@"zoomTextBtnHighlight"] forState:UIControlStateNormal];
-    else
-        [btn setBackgroundImage:[UIImage imageNamed:@"zoomTextBtnNorm"] forState:UIControlStateNormal];
-    
     if(IS_IPHONE){
         if ([secondview.view superview]) {
             [secondview.view removeFromSuperview];
@@ -300,7 +293,7 @@
             secondview = [ZoomPopoverView new];
             secondview.view.autoresizesSubviews = YES;
         }
-        [secondview.view setBackgroundColor:RGBCOLOR(105, 2, 8)];
+        [secondview.view setBackgroundColor:UIColor.blackColor];
         secondview.view.y = 0;
         [self.view addSubview:secondview.view];
     }else {
@@ -310,12 +303,9 @@
 
 - (BOOL)popoverControllerShouldDismissPopover:(UIPopoverController *)popoverController
 {
-    NewsListViewController *newsVC = self.delegate;
     _zoomBtnPressed = NO;
-    [newsVC.zoomTextButton setBackgroundImage:[UIImage imageNamed:@"zoomTextBtnNorm"] forState:UIControlStateNormal];
     return YES;
 }
-
 
 - (void)onShareBtn:(id)sender
 {
@@ -364,10 +354,6 @@
     }
 }
 
-
-- (void)mailPost{
-    
-}
 
 - (void)facebookPost{
     if (!shareViewController) {

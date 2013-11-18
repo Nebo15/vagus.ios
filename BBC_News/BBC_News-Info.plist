@@ -20,13 +20,7 @@
 				<string>vagus_120</string>
 				<string>vagus_114</string>
 				<string>vagus_57</string>
-				<string>Icon.png</string>
-				<string>Icon@2x.png</string>
-				<string>Icon-iPad.png</string>
-				<string>Icon-iPad@2x.png</string>
 			</array>
-			<key>UIPrerenderedIcon</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>CFBundleIcons~ipad</key>
@@ -35,26 +29,17 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>vagus_50</string>
-				<string>vagus_40</string>
 				<string>vagus_58</string>
 				<string>vagus_29</string>
+				<string>vagus_40</string>
 				<string>vagus_80</string>
+				<string>vagus_50</string>
 				<string>vagus_100</string>
-				<string>vagus_152</string>
 				<string>vagus_76</string>
+				<string>vagus_152</string>
 				<string>vagus_144</string>
 				<string>vagus_72</string>
-				<string>vagus_120</string>
-				<string>vagus_114</string>
-				<string>vagus_57</string>
-				<string>Icon.png</string>
-				<string>Icon@2x.png</string>
-				<string>Icon-iPad.png</string>
-				<string>Icon-iPad@2x.png</string>
 			</array>
-			<key>UIPrerenderedIcon</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>

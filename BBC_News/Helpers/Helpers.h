@@ -21,7 +21,7 @@
 
 @interface Helpers : NSObject
 
-+ (UIButton *)createRedButtonWithTitle:(NSString *)titleText delegate:(id)delegate selector:(SEL)selector;
++ (UIButton *)createGrayButtonWithTitle:(NSString *)titleText delegate:(id)delegate selector:(SEL)selector;
 + (UIButton *)createButtonWithNormalImg:(UIImage *)normalImg highlightImg:(UIImage *)highlightImg delegate:(id)delegate selector:(SEL)selector;
 + (UIView *)createViewWithButtons:(NSArray *)buttonsArray;
 

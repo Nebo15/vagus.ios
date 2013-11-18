@@ -47,24 +47,23 @@
     if (self.feedData.categoryItem.title) {
         [self.titleLbl setText:self.feedData.categoryItem.title];
     }
-    
-    [self.scrollImagesView setContentSize:CGSizeMake(LEFT_OFFSET + RIGHT_OFFSET + ([self.feedData.items count] * (ITEM_WIDHT + MIDLE_OFFSET)) - MIDLE_OFFSET, 100)];
-    for (MWFeedItem *feedItem in self.feedData.items) {
-        float xOffset = LEFT_OFFSET + index * (ITEM_WIDHT + MIDLE_OFFSET);
-        NewsItemView *itemView = [[NewsItemView alloc] initWithFeedItem:feedItem];
-        [itemView.imageView setImageCustom:nil];
-        [itemView setBackgroundColor:[UIColor clearColor]];
-        [itemView setDelegate:self];
-        [self.scrollImagesView addSubview:itemView];
-        CGRect itemFrame = itemView.frame;
-        itemFrame.origin.x = xOffset;
-        itemFrame.origin.y = TOP_OFFSET;
-        [itemView setFrame:itemFrame];
-        index++;
-        [queue addOperationWithBlock:^{
-            [itemView loadData];
-        }];
-    }
+        [self.scrollImagesView setContentSize:CGSizeMake(LEFT_OFFSET + RIGHT_OFFSET + ([self.feedData.items count] * (ITEM_WIDHT + MIDLE_OFFSET)) - MIDLE_OFFSET, 100)];
+        for (MWFeedItem *feedItem in self.feedData.items) {
+            float xOffset = LEFT_OFFSET + index * (ITEM_WIDHT + MIDLE_OFFSET);
+            NewsItemView *itemView = [[NewsItemView alloc] initWithFeedItem:feedItem];
+            [itemView.imageView setImageCustom:nil];
+            [itemView setBackgroundColor:[UIColor clearColor]];
+            [itemView setDelegate:self];
+            [self.scrollImagesView addSubview:itemView];
+            CGRect itemFrame = itemView.frame;
+            itemFrame.origin.x = xOffset;
+            itemFrame.origin.y = TOP_OFFSET;
+            [itemView setFrame:itemFrame];
+            index++;
+            [queue addOperationWithBlock:^{
+                [itemView loadData];
+            }];
+        }
 }
 
 - (void)clearData{
@@ -99,16 +98,16 @@
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
-//    for (NewsItemView *itemView in scrollView.subviews) {
-//        if ( itemView.frame.origin.x < scrollView.contentOffset.x + scrollView.frame.size.width+itemView.frame.size.width*2) {
-//            [queue addOperationWithBlock:^{
-//                    [itemView loadData];
-//            }];
-//        }else{
-//            [itemView clearData];
-//
-//        }
-//    }
+    for (NewsItemView *itemView in scrollView.subviews) {
+        if ( itemView.frame.origin.x < scrollView.contentOffset.x + scrollView.frame.size.width+itemView.frame.size.width*2) {
+            [queue addOperationWithBlock:^{
+                    [itemView loadData];
+            }];
+        }else{
+            [itemView clearData];
+
+        }
+    }
 
 }
 

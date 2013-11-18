@@ -1,0 +1,428 @@
+TPods-AFNetworking
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fhydvntvpzajboajxprwglqkurnp/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPClient.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPClient.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPRequestOperation.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFImageRequestOperation.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFJSONRequestOperation.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFNetworkActivityIndicatorManager.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFPropertyListRequestOperation.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFURLConnectionOperation.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFXMLRequestOperation.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/UIImageView+AFNetworking.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/Pods-AFNetworking-dummy.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-AFNetworking-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/libPods-AFNetworking.a normal armv7s
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c0000000052670DFD0000000000000110
+t1382485501
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c00000000523A32D9000000000000036B
+t1379545817
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052670DD800000000000001A0
+t1382485464
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000052670DD800000000004D63C0
+t1382485464
+s5071808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000052670DD90000000000A92BC0
+t1382485465
+s11086784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000052670DD90000000000210C80
+t1382485465
+s2165888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
+c0000000052670DD9000000000017E0C0
+t1382485465
+s1564864
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000052670DD900000000001A2270
+t1382485465
+s1712752
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPClient.o
+t1384133848
+s240344
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPRequestOperation.o
+t1384133848
+s62200
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFImageRequestOperation.o
+t1384133848
+s54764
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFJSONRequestOperation.o
+t1384133848
+s41564
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFNetworkActivityIndicatorManager.o
+t1384133848
+s33660
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFPropertyListRequestOperation.o
+t1384133848
+s38636
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFURLConnectionOperation.o
+t1384133848
+s199756
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFXMLRequestOperation.o
+t1384133848
+s32792
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/Pods-AFNetworking-dummy.o
+t1384133848
+s3468
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/Pods-AFNetworking.LinkFileList
+c00000000528034D7000000000000063A
+t1384133847
+s1594
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/UIImageView+AFNetworking.o
+t1384133848
+s65304
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch.pch
+t1384133848
+s5557140
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fhydvntvpzajboajxprwglqkurnp/Pods-AFNetworking-prefix.pch.pch
+t1384133848
+s5549572
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/libPods-AFNetworking.a
+t2
+s0
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPClient.m
+c00000000527D81B2000000000000D619
+t1383956914
+s54809
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+c00000000527D81B2000000000000340D
+t1383956914
+s13325
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.m
+c00000000527D81B20000000000003135
+t1383956914
+s12597
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m
+c00000000527D81B200000000000018AE
+t1383956914
+s6318
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m
+c00000000527D81B20000000000001654
+t1383956914
+s5716
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m
+c00000000527D81B2000000000000164A
+t1383956914
+s5706
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+c00000000527D81B20000000000007C59
+t1383956914
+s31833
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m
+c00000000527D81B20000000000001944
+t1383956914
+s6468
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m
+c00000000527D81B200000000000019C3
+t1383956914
+s6595
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-AFNetworking-dummy.m
+c00000000527D827B000000000000008A
+t1383957115
+s138
+
+N/Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-AFNetworking-prefix.pch
+c00000000527D827B00000000000001CF
+t1383957115
+s463
+
+CBuild AST from /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPClient.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m
+r0
+
+CBuild AST from /Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-AFNetworking-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies95d5b8576c30b841^d4d2c4576c30b841^---0#1#1#--18"Check dependencies36"4398C04B-8BBD-446A-B202-61D2DD18BAEA-
+
+CCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPClient.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPClient.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405826648.370848
+e405826648.655030
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPClient.o
+x/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPClient.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPClient.m
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPClient.h
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPClient.m267"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPClient.o AFNetworking/AFNetworking/AFHTTPClient.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler57045f586c30b841^c4b0a7586c30b841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPClient.m0000000000000000^3780"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPClient.o AFNetworking/AFNetworking/AFHTTPClient.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/include -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/armv7s -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPClient.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPClient.dia -c /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPClient.m -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPClient.o36"51707869-2F72-44B3-9CA9-0B04602AE8C4-
+b4EC5F178-416A-4728-885D-2316573ED30D
+
+CCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPRequestOperation.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405826648.371029
+e405826648.557845
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPRequestOperation.o
+x/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m287"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPRequestOperation.o AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilered105f586c30b841^eece8e586c30b841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m0000000000000000^3840"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPRequestOperation.o AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/include -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/armv7s -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPRequestOperation.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPRequestOperation.dia -c /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFHTTPRequestOperation.o36"2C2D9641-E9F8-45A1-9294-F4165108EF33-
+b4EC5F178-416A-4728-885D-2316573ED30D
+
+CCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFImageRequestOperation.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405826648.371223
+e405826648.546747
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFImageRequestOperation.o
+x/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.m
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.h
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.m289"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFImageRequestOperation.o AFNetworking/AFNetworking/AFImageRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerb41d5f586c30b841^55f88b586c30b841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.m0000000000000000^3846"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFImageRequestOperation.o AFNetworking/AFNetworking/AFImageRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/include -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/armv7s -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFImageRequestOperation.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFImageRequestOperation.dia -c /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.m -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFImageRequestOperation.o36"31E9B32B-2F86-4724-B0E6-B17616D61635-
+b4EC5F178-416A-4728-885D-2316573ED30D
+
+CCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFJSONRequestOperation.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405826648.371428
+e405826648.539070
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFJSONRequestOperation.o
+x/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.h
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m287"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFJSONRequestOperation.o AFNetworking/AFNetworking/AFJSONRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler2c295f586c30b841^15018a586c30b841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m0000000000000000^3840"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFJSONRequestOperation.o AFNetworking/AFNetworking/AFJSONRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/include -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/armv7s -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFJSONRequestOperation.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFJSONRequestOperation.dia -c /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFJSONRequestOperation.o36"E6E8A0B1-0E4F-4915-BE18-00F160C56373-
+b4EC5F178-416A-4728-885D-2316573ED30D
+
+CCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFNetworkActivityIndicatorManager.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405826648.539319
+e405826648.583477
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFNetworkActivityIndicatorManager.o
+x/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m309"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFNetworkActivityIndicatorManager.o AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler8c2f8a586c30b841^245f95586c30b841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m0000000000000000^3906"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFNetworkActivityIndicatorManager.o AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/include -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/armv7s -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFNetworkActivityIndicatorManager.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFNetworkActivityIndicatorManager.dia -c /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFNetworkActivityIndicatorManager.o36"CB64426D-EDB3-435F-B59F-6379B7821ACB-
+b4EC5F178-416A-4728-885D-2316573ED30D
+
+CCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFPropertyListRequestOperation.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405826648.546954
+e405826648.596379
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFPropertyListRequestOperation.o
+x/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.h
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m303"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFPropertyListRequestOperation.o AFNetworking/AFNetworking/AFPropertyListRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler3d438c586c30b841^a3af98586c30b841^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m0000000000000000^3888"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFPropertyListRequestOperation.o AFNetworking/AFNetworking/AFPropertyListRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/include -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/armv7s -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFPropertyListRequestOperation.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFPropertyListRequestOperation.dia -c /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFPropertyListRequestOperation.o36"53C60613-7EDE-4D8D-B9F3-5C964F4B9A86-
+b4EC5F178-416A-4728-885D-2316573ED30D
+
+CCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFURLConnectionOperation.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405826648.558075
+e405826648.713476
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFURLConnectionOperation.o
+x/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m291"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFURLConnectionOperation.o AFNetworking/AFNetworking/AFURLConnectionOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerd8f28e586c30b841^caa8b6586c30b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m0000000000000000^3852"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFURLConnectionOperation.o AFNetworking/AFNetworking/AFURLConnectionOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/include -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/armv7s -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFURLConnectionOperation.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFURLConnectionOperation.dia -c /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFURLConnectionOperation.o36"A4C6788F-D775-4E23-AAFA-470A56A1F570-
+b4EC5F178-416A-4728-885D-2316573ED30D
+
+CCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFXMLRequestOperation.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405826648.583716
+e405826648.627374
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFXMLRequestOperation.o
+x/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.h
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m285"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFXMLRequestOperation.o AFNetworking/AFNetworking/AFXMLRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler868e95586c30b841^ae9da0586c30b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m0000000000000000^3834"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFXMLRequestOperation.o AFNetworking/AFNetworking/AFXMLRequestOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/include -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/armv7s -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFXMLRequestOperation.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFXMLRequestOperation.dia -c /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/AFXMLRequestOperation.o36"CC24CA51-9DAB-4CCF-BE76-BC3A59638E3D-
+b4EC5F178-416A-4728-885D-2316573ED30D
+
+CCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/Pods-AFNetworking-dummy.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-AFNetworking-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405826648.627657
+e405826648.651000
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/Pods-AFNetworking-dummy.o
+x/Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-AFNetworking-dummy.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-AFNetworking-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-AFNetworking-dummy.m263"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/Pods-AFNetworking-dummy.o Pods-AFNetworking-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerb5c2a0586c30b841^c1aaa6586c30b841^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-AFNetworking-dummy.m0000000000000000^3760"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/Pods-AFNetworking-dummy.o Pods-AFNetworking-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/include -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/armv7s -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos -include /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fhydvntvpzajboajxprwglqkurnp/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/Pods-AFNetworking-dummy.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/Pods-AFNetworking-dummy.dia -c /Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-AFNetworking-dummy.m -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/Pods-AFNetworking-dummy.o36"6C61BC04-E460-46C2-95DE-9DA3695BBC21-
+b4EC5F178-416A-4728-885D-2316573ED30D
+
+CCompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/UIImageView+AFNetworking.o /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405826648.596667
+e405826648.664132
+r1
+xCompileC
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/UIImageView+AFNetworking.o
+x/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.h
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.h
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m291"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/UIImageView+AFNetworking.o AFNetworking/AFNetworking/UIImageView+AFNetworking.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler0edd98586c30b841^0305aa586c30b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m0000000000000000^3852"CompileC /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/UIImageView+AFNetworking.o AFNetworking/AFNetworking/UIImageView+AFNetworking.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/include -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/armv7s -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/UIImageView+AFNetworking.d --serialize-diagnostics /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/UIImageView+AFNetworking.dia -c /Users/evgenbakumenko/Desktop/vagus_news/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/UIImageView+AFNetworking.o36"74483A6F-C646-4AF5-84F9-5C41033DA1F4-
+b4EC5F178-416A-4728-885D-2316573ED30D
+
+CLibtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/libPods-AFNetworking.a normal armv7s
+s405826648.714745
+e405826648.728004
+r1
+xLibtool
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/libPods-AFNetworking.a
+xnormal
+xarmv7s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Libtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/libPods-AFNetworking.a normal armv7s115"Libtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/libPods-AFNetworking.a normal armv7s840db7586c30b841^425fba586c30b841^---0#0#1#--1109"Libtool /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/libPods-AFNetworking.a normal armv7s    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos -filelist /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/armv7s/Pods-AFNetworking.LinkFileList -framework Foundation -framework MobileCoreServices -framework SystemConfiguration -framework Security -framework CoreGraphics -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/libPods-AFNetworking.a36"76DA2086-1354-4907-9FCB-E4613D0E3C1F-
+b4EC5F178-416A-4728-885D-2316573ED30D
+
+CProcessPCH /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405826647.769064
+e405826648.370078
+r1
+xProcessPCH
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch.pch
+xPods-AFNetworking-prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-AFNetworking-prefix.pch
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-AFNetworking-prefix.pch276"ProcessPCH /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerdaffc4576c30b841^fdbf5e586c30b841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-AFNetworking-prefix.pch0000000000000000^3665"ProcessPCH /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/include -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/armv7s -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch.dia -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch.d -c /Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-AFNetworking-prefix.pch -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-bcjipbaidvfmctgwhwzeuuncxejo/Pods-AFNetworking-prefix.pch.pch36"B41B3C4C-F084-4E8B-BF92-6A9F3BF7715C-
+b4EC5F178-416A-4728-885D-2316573ED30D
+
+CProcessPCH /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fhydvntvpzajboajxprwglqkurnp/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405826647.769377
+e405826648.365252
+r1
+xProcessPCH
+x/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fhydvntvpzajboajxprwglqkurnp/Pods-AFNetworking-prefix.pch.pch
+xPods-AFNetworking-prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-AFNetworking-prefix.pch
+d/Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-AFNetworking-prefix.pch276"ProcessPCH /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fhydvntvpzajboajxprwglqkurnp/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerbc06c5576c30b841^d8835d586c30b841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-AFNetworking-prefix.pch0000000000000000^3631"ProcessPCH /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fhydvntvpzajboajxprwglqkurnp/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/evgenbakumenko/Desktop/vagus_news/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos/include -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/BuildHeaders/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers -I/Users/evgenbakumenko/Desktop/vagus_news/Pods/Headers/AFNetworking -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/armv7s -I/Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/evgenbakumenko/Desktop/vagus_news/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fhydvntvpzajboajxprwglqkurnp/Pods-AFNetworking-prefix.pch.dia -MMD -MT dependencies -MF /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fhydvntvpzajboajxprwglqkurnp/Pods-AFNetworking-prefix.pch.d -c /Users/evgenbakumenko/Desktop/vagus_news/Pods/Pods-AFNetworking-prefix.pch -o /Users/evgenbakumenko/Desktop/vagus_news/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fhydvntvpzajboajxprwglqkurnp/Pods-AFNetworking-prefix.pch.pch36"B5258264-A567-45FD-9EB8-35B300F3F5C1-
+b4EC5F178-416A-4728-885D-2316573ED30D
+
+CProcessPCH /Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/BBC_News-derbfuopnafduqetcnzquhcaspqj/Index/PrecompiledHeaders/Pods-AFNetworking-prefix-bpfddbrmydrvnbclpmmizooeaqff_ast/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/evgenbakumenko/Library/Developer/Xcode/DerivedData/BBC_News-derbfuopnafduqetcnzquhcaspqj/Index/PrecompiledHeaders/Pods-AFNetworking-prefix-gasfgrzzcwjwnudbsannndhoacji_ast/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
