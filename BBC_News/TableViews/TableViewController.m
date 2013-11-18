@@ -68,7 +68,6 @@
 			theCell = [items objectAtIndex:0];
 		}
         if (tableView.style == UITableViewStyleGrouped && [self respondsToSelector:@selector(cellSelectedBackgroundViewWithIndexPath:)]) {
-            //            theCell.backgroundView = [self cellSelectedBackgroundViewWithIndexPath:indexPath];
         }
         [theCell setSelectionStyle:UITableViewCellSelectionStyleGray];
 	}

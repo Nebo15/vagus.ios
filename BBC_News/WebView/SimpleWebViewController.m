@@ -38,6 +38,7 @@ documentsDirectory = [paths objectAtIndex:0];
 }
 
 - (void)webViewDidStartLoad:(UIWebView *)__webView{
+    NSLog(@"%@",__webView.request.URL);
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)_webView{
@@ -120,6 +121,12 @@ documentsDirectory = [paths objectAtIndex:0];
     NSString *path = [[NSBundle mainBundle] bundlePath];
     NSURL *baseURL = [NSURL fileURLWithPath:path];
     
+<<<<<<< HEAD
+=======
+    NSString *lastUpdateStr = (item.updated && ![item.identifier hasPrefix:@"urn:news-bbc-co-uk:ws"])?[NSString stringWithFormat:@"Last updated %@",item.updated]:@"";
+    lastUpdateStr = [lastUpdateStr stringByReplacingOccurrencesOfString:@"+0000" withString:@""];
+    
+>>>>>>> 8c201fed69d20bb79d67a07c824c3064b1d07028
     NSString *html = [NSString stringWithFormat:@"<!DOCTYPE html>\
                       <html class=\"newsArticle\">\
                       <head>\
@@ -231,6 +238,10 @@ documentsDirectory = [paths objectAtIndex:0];
             [self playVideo:str];
         }
         
+    }
+    else if(navigationType == UIWebViewNavigationTypeLinkClicked)
+    {
+        return NO;
     }
     
     //  Let other links be handled by the webview.
