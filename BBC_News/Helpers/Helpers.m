@@ -17,10 +17,10 @@
 {
     UIButton *redButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [redButton setTitle:titleText forState:UIControlStateNormal];
-    redButton.titleLabel.font = [UIFont boldSystemFontOfSize:14];
+    redButton.titleLabel.font = [UIFont boldSystemFontOfSize:11];
     [redButton setBackgroundImage:[UIImage imageNamed:@"btnBackg"] forState:UIControlStateNormal];
     [redButton setBackgroundImage:[UIImage imageNamed:@"btnBackgHighlight"] forState:UIControlStateHighlighted];
-    redButton.frame = CGRectMake(0, 0, [titleText sizeWithFont:redButton.titleLabel.font].width + BTN_TITLE_INSET * 2, 26);
+    redButton.frame = CGRectMake(0, 0, [titleText sizeWithFont:redButton.titleLabel.font].width + 10, 22);
     [redButton addTarget:delegate action:selector forControlEvents:UIControlEventTouchUpInside];
     return redButton;
 }
